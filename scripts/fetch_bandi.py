@@ -51,7 +51,7 @@ CATEGORIA_ID = "8d70df1b4bca4904b3a4"
 REGIONE_ID = "9"
 NOMINATIM_URL = "https://nominatim.openstreetmap.org/search"
 USER_AGENT = "bandi-inpa-tracker/1.0 (uso personale, contatto: d.agata.d@gmail.com)"
-PADERNO_DUGNANO_QUERY = "Paderno Dugnano, Italy"
+PADERNO_DUGNANO_QUERY = "Paderno Dugnano"
 RADIUS_KM = 20.0
 NOMINATIM_MIN_INTERVAL_S = 1.1  # rispetta la usage policy di Nominatim (max 1 req/s)
 
