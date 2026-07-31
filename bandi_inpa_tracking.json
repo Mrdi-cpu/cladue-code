@@ -63,6 +63,24 @@
       "stato_valutazione": "compatibile",
       "ultimo_controllo": "2026-07-30"
     },
+    "0cff015e0aa34bc5b04fe48e37850a61": {
+      "apertura": "2026-07-31T12:30:00Z",
+      "concorso_id": "0cff015e0aa34bc5b04fe48e37850a61",
+      "ente": "Comune di Cassano Magnago",
+      "link_inpa": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=0cff015e0aa34bc5b04fe48e37850a61",
+      "link_pdf": "https://portale.inpa.gov.it/api/media/8ca081f9-1341-4c1a-aa98-848e3ca64718",
+      "posti": 1,
+      "prima_rilevazione": "2026-07-31",
+      "profilo": "Istruttore amministrativo contabile",
+      "raw_sedi": [
+        "Lombardia",
+        "Varese"
+      ],
+      "scadenza": "2026-08-19T21:59:00Z",
+      "stato_valutazione": "escluso_avviso_mobilita",
+      "ultimo_controllo": "2026-07-31",
+      "valutazione": "ESAMI"
+    },
     "0dca6f4e60b54b1faaa9ed61973f954f": {
       "comune": null,
       "ente": "Comune di San Giuliano Milanese (URP)",
@@ -279,6 +297,27 @@
       "stato_valutazione": "escluso_laurea_obbligatoria",
       "ultimo_controllo": "2026-07-30"
     },
+    "38e63db113504538a694be099fd00eed": {
+      "apertura": "2026-07-31T10:00:00Z",
+      "comune": "Lombardia",
+      "concorso_id": "38e63db113504538a694be099fd00eed",
+      "ente": "Provincia di Mantova",
+      "km": 47.1,
+      "link_inpa": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=38e63db113504538a694be099fd00eed",
+      "link_pdf": "https://portale.inpa.gov.it/api/media/f7a3468c-8bf3-401d-8b79-8e3ebc067594",
+      "posti": 1,
+      "prima_rilevazione": "2026-07-31",
+      "profilo": "Funzionario Amministrativo Ambientale",
+      "raw_sedi": [
+        "Lombardia",
+        "Mantova"
+      ],
+      "scadenza": "2026-08-31T10:00:00Z",
+      "stato_valutazione": "escluso_fuori_raggio",
+      "tempo": "TI",
+      "ultimo_controllo": "2026-07-31",
+      "valutazione": "ESAMI"
+    },
     "3a0deae573cc408ab59bfa69b6c475e5": {
       "comune": null,
       "ente": "Comune di Montanaso Lombardo",
@@ -315,6 +354,24 @@
       "stato_valutazione": "escluso_TD",
       "ultimo_controllo": "2026-07-30"
     },
+    "4347de958f0343b3b827816290dc35b4": {
+      "apertura": "2025-12-18T10:50:00Z",
+      "concorso_id": "4347de958f0343b3b827816290dc35b4",
+      "ente": "Provincia di Monza e della Brianza",
+      "link_inpa": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=4347de958f0343b3b827816290dc35b4",
+      "link_pdf": null,
+      "posti": 1,
+      "prima_rilevazione": "2026-07-31",
+      "profilo": "Istruttore amministrativo contabile - Carnate",
+      "raw_sedi": [
+        "Monza e della Brianza",
+        "Lombardia"
+      ],
+      "scadenza": "2026-08-19T10:00:00Z",
+      "stato_valutazione": "escluso_avviso_mobilita",
+      "ultimo_controllo": "2026-07-31",
+      "valutazione": "COLLOQUIO"
+    },
     "473e62ba2a194874b57c19335b1fae5f": {
       "comune": null,
       "ente": "Azienda Speciale Consortile Alto Mantovano",
@@ -341,6 +398,24 @@
       "scadenza": null,
       "stato_valutazione": "escluso_fuori_raggio",
       "ultimo_controllo": "2026-07-30"
+    },
+    "4a976117dac543a1bfb1e00b591074fd": {
+      "apertura": "2026-07-30T11:00:00Z",
+      "concorso_id": "4a976117dac543a1bfb1e00b591074fd",
+      "ente": "Comune di Malnate",
+      "link_inpa": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=4a976117dac543a1bfb1e00b591074fd",
+      "link_pdf": "https://portale.inpa.gov.it/api/media/bfff9423-e30a-445e-b268-711107701f3a",
+      "posti": 1,
+      "prima_rilevazione": "2026-07-31",
+      "profilo": "FUNZIONARIO TECNICO",
+      "raw_sedi": [
+        "Lombardia",
+        "Varese"
+      ],
+      "scadenza": "2026-09-10T08:00:00Z",
+      "stato_valutazione": "escluso_avviso_mobilita",
+      "ultimo_controllo": "2026-07-31",
+      "valutazione": "ESAMI"
     },
     "4c4d5a6eedbb42649b347b452d20dcd0": {
       "comune": null,
@@ -414,6 +489,24 @@
       "stato_valutazione": "escluso_laurea_obbligatoria",
       "ultimo_controllo": "2026-07-30"
     },
+    "5cb834f179e749ecac2be19561cbfd41": {
+      "apertura": "2026-07-31T13:00:00Z",
+      "concorso_id": "5cb834f179e749ecac2be19561cbfd41",
+      "ente": "Comune di Cesano Maderno",
+      "link_inpa": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=5cb834f179e749ecac2be19561cbfd41",
+      "link_pdf": "https://portale.inpa.gov.it/api/media/32cb8846-4409-4005-921d-3b7b67dca2af",
+      "posti": 3,
+      "prima_rilevazione": "2026-07-31",
+      "profilo": "Istruttore amministrativo",
+      "raw_sedi": [
+        "Lombardia",
+        "Monza e della Brianza"
+      ],
+      "scadenza": "2026-09-04T21:30:00Z",
+      "stato_valutazione": "escluso_TD",
+      "ultimo_controllo": "2026-07-31",
+      "valutazione": "ESAMI"
+    },
     "601de26e4f2540d1a3c12f1f770722fc": {
       "comune": "Carugate",
       "ente": "Comune di Carugate",
@@ -459,6 +552,45 @@
       "stato_valutazione": "escluso_diploma_indirizzo_specifico",
       "ultimo_controllo": "2026-07-30"
     },
+    "66f0ee8e1e2544958460b3b769bcede2": {
+      "apertura": "2026-07-30T11:00:00Z",
+      "concorso_id": "66f0ee8e1e2544958460b3b769bcede2",
+      "ente": "Comune di Malnate",
+      "link_inpa": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=66f0ee8e1e2544958460b3b769bcede2",
+      "link_pdf": "https://portale.inpa.gov.it/api/media/4bf668ee-6959-4257-bd8b-4d9d45376e10",
+      "posti": 2,
+      "prima_rilevazione": "2026-07-31",
+      "profilo": "FUNZIONARIO TECNICO",
+      "raw_sedi": [
+        "Lombardia",
+        "Varese"
+      ],
+      "scadenza": "2026-09-10T08:00:00Z",
+      "stato_valutazione": "escluso_avviso_mobilita",
+      "ultimo_controllo": "2026-07-31",
+      "valutazione": "ESAMI"
+    },
+    "679792df4afc4e9f8fa65e9ad2ea2f67": {
+      "apertura": "2026-07-30T14:30:00Z",
+      "comune": "Lombardia",
+      "concorso_id": "679792df4afc4e9f8fa65e9ad2ea2f67",
+      "ente": "Provincia di Sondrio",
+      "km": 47.1,
+      "link_inpa": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=679792df4afc4e9f8fa65e9ad2ea2f67",
+      "link_pdf": "https://portale.inpa.gov.it/api/media/2db36c0e-fcf2-4126-987e-369b8ec362c6",
+      "posti": 1,
+      "prima_rilevazione": "2026-07-31",
+      "profilo": "ISTRUTTORE AMMINISTRATIVO",
+      "raw_sedi": [
+        "Lombardia",
+        "Sondrio"
+      ],
+      "scadenza": "2026-09-15T21:30:00Z",
+      "stato_valutazione": "escluso_fuori_raggio",
+      "tempo": "TI",
+      "ultimo_controllo": "2026-07-31",
+      "valutazione": "ESAMI"
+    },
     "6b943bcc673b4094887cfd065980c9db": {
       "comune": null,
       "ente": "Comune di Olgiate Comasco",
@@ -494,6 +626,24 @@
       "scadenza": null,
       "stato_valutazione": "escluso_laurea_obbligatoria",
       "ultimo_controllo": "2026-07-30"
+    },
+    "772c42fac3b54083ae98bd5c0cfefd86": {
+      "apertura": "2026-07-30T15:47:00Z",
+      "concorso_id": "772c42fac3b54083ae98bd5c0cfefd86",
+      "ente": "Comune di Berlingo",
+      "link_inpa": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=772c42fac3b54083ae98bd5c0cfefd86",
+      "link_pdf": "https://portale.inpa.gov.it/api/media/6afbef23-fdf9-4914-b02c-252f01ffea68",
+      "posti": 1,
+      "prima_rilevazione": "2026-07-31",
+      "profilo": "Istruttore Amministrativo",
+      "raw_sedi": [
+        "Lombardia",
+        "Brescia"
+      ],
+      "scadenza": "2026-08-29T10:00:00Z",
+      "stato_valutazione": "escluso_TD",
+      "ultimo_controllo": "2026-07-31",
+      "valutazione": "ESAMI"
     },
     "796f69cb64dd410b872bf656b89c8143": {
       "comune": null,
@@ -603,6 +753,23 @@
       "stato_valutazione": "compatibile",
       "ultimo_controllo": "2026-07-30"
     },
+    "8f9ac377cf9a49818b4d5080f8145cea": {
+      "apertura": "2026-07-31T13:05:00Z",
+      "concorso_id": "8f9ac377cf9a49818b4d5080f8145cea",
+      "ente": "Agenzia di Tutela della Salute della Montagna",
+      "link_inpa": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=8f9ac377cf9a49818b4d5080f8145cea",
+      "link_pdf": null,
+      "posti": 2,
+      "prima_rilevazione": "2026-07-31",
+      "profilo": "ASSISTENTE AMMINISTRATIVO",
+      "raw_sedi": [
+        "Lombardia"
+      ],
+      "scadenza": "2026-09-03T21:59:00Z",
+      "stato_valutazione": "escluso_avviso_mobilita",
+      "ultimo_controllo": "2026-07-31",
+      "valutazione": "TITOLI_ESAMI"
+    },
     "91a48e88c880493d87dc7b18ce83c0c6": {
       "comune": null,
       "ente": "Universita' di Pavia (Dirigente)",
@@ -638,6 +805,27 @@
       "scadenza": null,
       "stato_valutazione": "escluso_fuori_raggio",
       "ultimo_controllo": "2026-07-30"
+    },
+    "98ff7cc41f884e369daa055f9eff6efd": {
+      "apertura": "2026-07-30T11:40:00Z",
+      "comune": "Lombardia",
+      "concorso_id": "98ff7cc41f884e369daa055f9eff6efd",
+      "ente": "Comune di Schivenoglia",
+      "km": 47.1,
+      "link_inpa": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=98ff7cc41f884e369daa055f9eff6efd",
+      "link_pdf": "https://portale.inpa.gov.it/api/media/2252e82a-588e-42d4-aa4c-947acda86ca0",
+      "posti": 1,
+      "prima_rilevazione": "2026-07-31",
+      "profilo": "FUNZIONARIO AMMINISTRATIVO CONTABILE",
+      "raw_sedi": [
+        "Lombardia",
+        "Mantova"
+      ],
+      "scadenza": "2026-08-18T10:00:00Z",
+      "stato_valutazione": "escluso_fuori_raggio",
+      "tempo": "TI",
+      "ultimo_controllo": "2026-07-31",
+      "valutazione": "ESAMI"
     },
     "9cacb72d879a445a8ddc75dd50d74bdb": {
       "comune": "Truccazzano",
@@ -756,6 +944,23 @@
       "stato_valutazione": "escluso_fuori_raggio",
       "ultimo_controllo": "2026-07-30"
     },
+    "b065f236a3424328b05b74377814dad8": {
+      "apertura": "2026-07-31T11:00:00Z",
+      "concorso_id": "b065f236a3424328b05b74377814dad8",
+      "ente": "Comune di Gardone Riviera",
+      "link_inpa": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=b065f236a3424328b05b74377814dad8",
+      "link_pdf": "https://portale.inpa.gov.it/api/media/83d4ee7b-46c6-4a33-979a-2fc75b336e81",
+      "posti": 1,
+      "prima_rilevazione": "2026-07-31",
+      "profilo": "Agente di polizia locale",
+      "raw_sedi": [
+        "Lombardia"
+      ],
+      "scadenza": "2026-08-28T10:00:00Z",
+      "stato_valutazione": "escluso_TD",
+      "ultimo_controllo": "2026-07-31",
+      "valutazione": "ESAMI"
+    },
     "b08aae60456e4105bc0da9d133d761c6": {
       "comune": null,
       "ente": "Comune di Paitone",
@@ -827,6 +1032,24 @@
       "scadenza": null,
       "stato_valutazione": "escluso_fuori_raggio",
       "ultimo_controllo": "2026-07-30"
+    },
+    "baeb97fdfb4b491e867c60b30b73e7d1": {
+      "apertura": "2025-08-26T08:47:00Z",
+      "concorso_id": "baeb97fdfb4b491e867c60b30b73e7d1",
+      "ente": "Provincia di Monza e della Brianza",
+      "link_inpa": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=baeb97fdfb4b491e867c60b30b73e7d1",
+      "link_pdf": null,
+      "posti": 1,
+      "prima_rilevazione": "2026-07-31",
+      "profilo": "Istruttore amministrativo - Carnate",
+      "raw_sedi": [
+        "Monza e della Brianza",
+        "Lombardia"
+      ],
+      "scadenza": "2026-08-19T10:00:00Z",
+      "stato_valutazione": "escluso_avviso_mobilita",
+      "ultimo_controllo": "2026-07-31",
+      "valutazione": "COLLOQUIO"
     },
     "c1fed43faf964913a647ec68a6012fde": {
       "comune": null,
@@ -1008,6 +1231,23 @@
       "stato_valutazione": "escluso_fuori_raggio",
       "ultimo_controllo": "2026-07-30"
     },
+    "dcdf8d4f6b5a40ff84abfaf28411bc0a": {
+      "apertura": "2026-07-31T12:00:00Z",
+      "comune": "Arzignano (VI)",
+      "concorso_id": "dcdf8d4f6b5a40ff84abfaf28411bc0a",
+      "ente": "Comune di Arzignano",
+      "link_inpa": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=dcdf8d4f6b5a40ff84abfaf28411bc0a",
+      "link_pdf": "https://portale.inpa.gov.it/api/media/b678153f-5040-426e-95a4-65724890146e",
+      "posti": 1,
+      "prima_rilevazione": "2026-07-31",
+      "profilo": "funzionario amministrativo",
+      "scadenza": "2026-08-31T11:00:00Z",
+      "stato_valutazione": "escluso_fuori_raggio",
+      "tempo": "TI",
+      "titolo_richiesto": "Laurea (area Funzionari/EQ) - sede fissa Arzignano (VI), non Milano/MB",
+      "ultimo_controllo": "2026-07-31",
+      "valutazione": "ESAMI"
+    },
     "dd2432b5f00f4cc9821d8bd0d35a8fff": {
       "comune": null,
       "ente": "Unione Comuni Lombarda Magherno-Torre d'Arese",
@@ -1062,6 +1302,24 @@
       "stato_valutazione": "escluso_TD",
       "ultimo_controllo": "2026-07-30"
     },
+    "ec2b81dd550e433b84df9b607b31563a": {
+      "apertura": "2026-07-31T10:00:00Z",
+      "concorso_id": "ec2b81dd550e433b84df9b607b31563a",
+      "ente": "Comune di Milano",
+      "link_inpa": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=ec2b81dd550e433b84df9b607b31563a",
+      "link_pdf": "https://portale.inpa.gov.it/api/media/e10bae44-c936-467b-b53c-c8e4bcf918e0",
+      "posti": 4,
+      "prima_rilevazione": "2026-07-31",
+      "profilo": "Istruttore Direttivo dei Servizi Amministrativi",
+      "raw_sedi": [
+        "Lombardia",
+        "Milano"
+      ],
+      "scadenza": "2026-09-08T10:00:00Z",
+      "stato_valutazione": "escluso_avviso_mobilita",
+      "ultimo_controllo": "2026-07-31",
+      "valutazione": "COLLOQUIO"
+    },
     "ec69acb27f854060947ba4fad475dccf": {
       "comune": "Valsolda",
       "ente": "Comune di Valsolda (Agente Polizia Locale)",
@@ -1107,6 +1365,24 @@
       "stato_valutazione": "escluso_TD",
       "ultimo_controllo": "2026-07-30"
     },
+    "f7b8fcd11b964abc865dfbcd928c25b5": {
+      "apertura": "2026-07-30T16:00:00Z",
+      "concorso_id": "f7b8fcd11b964abc865dfbcd928c25b5",
+      "ente": "Provincia di Sondrio",
+      "link_inpa": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=f7b8fcd11b964abc865dfbcd928c25b5",
+      "link_pdf": "https://portale.inpa.gov.it/api/media/7acea4a9-3d3f-4a65-b83c-d8064a28aa32",
+      "posti": 3,
+      "prima_rilevazione": "2026-07-31",
+      "profilo": "OPERATORE ESPERTO",
+      "raw_sedi": [
+        "Lombardia",
+        "Sondrio"
+      ],
+      "scadenza": "2026-08-16T21:59:00Z",
+      "stato_valutazione": "escluso_TD",
+      "ultimo_controllo": "2026-07-31",
+      "valutazione": "TITOLI"
+    },
     "fa1c75e1b20d43de929d3b43c5778db3": {
       "comune": "Ballabio",
       "ente": "Comune di Ballabio",
@@ -1144,5 +1420,5 @@
       "ultimo_controllo": "2026-07-30"
     }
   },
-  "ultima_esecuzione": "2026-07-30"
+  "ultima_esecuzione": "2026-07-31"
 }
