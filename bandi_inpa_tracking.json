@@ -1,0 +1,1148 @@
+{
+  "bandi_segnalati": {
+    "012b95ff616540d59730d899bdbbf44b": {
+      "comune": null,
+      "ente": "ASST Niguarda (Collaboratore Amministrativo Professionale) - verificato PDF: richiede laurea triennale/magistrale",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_laurea_obbligatoria",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "02d793dc608a49f8a89ec904a31572d9": {
+      "comune": null,
+      "ente": "Comune di Dazio",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_fuori_raggio",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "03abadc0ac2645588a82bcbfa4ffd551": {
+      "comune": null,
+      "ente": "Comune di Oltrona di San Mamette",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_fuori_raggio",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "09d3cddc7109454185a27cbb3bba2d05": {
+      "comune": null,
+      "ente": "ASST G. Pini-CTO (stabilizzazione)",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_altro",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "0baac5e82b284205a9cd1b6b004b89ef": {
+      "comune": null,
+      "ente": "Comune di San Giuliano Milanese (Polizia Locale)",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_fuori_raggio",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "0bfa9b9a58514f70a5fbf9767a67e523": {
+      "comune": null,
+      "ente": "Comune di Cassano Magnago (Operaio Tecnico)",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_altro",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "0c911e7527c74249a2d6cc0b44e1741e": {
+      "comune": "Cusago",
+      "ente": "Comune di Cusago",
+      "km": 17.9,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": "2026-07-23",
+      "stato_valutazione": "compatibile",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "0dca6f4e60b54b1faaa9ed61973f954f": {
+      "comune": null,
+      "ente": "Comune di San Giuliano Milanese (URP)",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_fuori_raggio",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "0dfa517be0914f87b1fa339175def13c": {
+      "comune": null,
+      "ente": "Parco Lombardo Valle del Ticino (Avvocato)",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_laurea_obbligatoria",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "0f277038593240bb96f775a0100ed726": {
+      "comune": "Bergamo",
+      "ente": "Provincia di Bergamo",
+      "km": 50.0,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_fuori_raggio",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "1040e19fae824a278744972924b9c543": {
+      "comune": "Artogne",
+      "ente": "Comune di Artogne",
+      "km": 83.4,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_fuori_raggio",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "1116223fdc994996a830b174385f4d51": {
+      "comune": null,
+      "ente": "Comune di Fontanella",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_fuori_raggio",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "115bb5c316d84f148e8e4720ba2c64b6": {
+      "comune": null,
+      "ente": "Comune di Albizzate",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_fuori_raggio",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "13f9b386719a4c1eb81353045af9f6d7": {
+      "comune": "Como",
+      "ente": "Comune di Como (Funzionario Polizia Locale)",
+      "km": 40.9,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_fuori_raggio",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "14c2d7d2dd6d4cf19648d9b125916108": {
+      "comune": "Oliveto Lario",
+      "ente": "Comune di Oliveto Lario",
+      "km": 40.8,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_fuori_raggio",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "168bb05762084b3a98282859c49340c5": {
+      "comune": "Solaro",
+      "ente": "Parco delle Groane",
+      "km": 8.3,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": "2026-08-25",
+      "stato_valutazione": "compatibile",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "16fb494edf844044b9a340b2be4b037c": {
+      "comune": null,
+      "ente": "Comune di Brescia (Educatore)",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_TD",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "19cffb1b84e0442f8961f0f03a85aca0": {
+      "comune": null,
+      "ente": "Comune di Gandosso",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_fuori_raggio",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "1b3540cd50734ba793ac428485e76b09": {
+      "comune": null,
+      "ente": "Comune di Sondrio (Istruttore Direttivo TD)",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_TD",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "1b81dc6ff56a489680e03c3487b8f963": {
+      "comune": null,
+      "ente": "Comune di Gardone Val Trompia",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_TD",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "1db3f9d1ebff4510a53fe53355d1ce37": {
+      "comune": null,
+      "ente": "Comune di Teglio",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_fuori_raggio",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "1ebeee9af8d5418597a6c099e1f77a19": {
+      "comune": null,
+      "ente": "ASST di Pavia",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_fuori_raggio",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "242fe9a92bf84f48b7636322ff76c0e4": {
+      "comune": "Vanzago",
+      "ente": "Comune di Vanzago (Agente Polizia Locale)",
+      "km": 14.4,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": "2026-08-28",
+      "stato_valutazione": "compatibile",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "2540a47a37664bc19666d3f69f01fa24": {
+      "comune": null,
+      "ente": "Ministero Giustizia (progressioni tra aree)",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_altro",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "25fa89e7f1044450a59c96b063e1e342": {
+      "comune": null,
+      "ente": "Comune di Bergamo (Polizia Locale)",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_fuori_raggio",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "269b37cc35554360beaf83245283d2e7": {
+      "comune": "Vanzago",
+      "ente": "Comune di Vanzago",
+      "km": 14.4,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": "2026-08-10",
+      "stato_valutazione": "compatibile",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "2ec4e4d1b8524c8eb57ebadc81355102": {
+      "comune": null,
+      "ente": "Comune di Mediglia",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_fuori_raggio",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "3387220b5a174704bbaa85d4a9e4c02a": {
+      "comune": null,
+      "ente": "Comune di Melegnano",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_fuori_raggio",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "33e81b1a95574f739c3ded94b057d357": {
+      "comune": null,
+      "ente": "Comune di Gallarate (revocato/interpello)",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_avviso_mobilita",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "3759075ece8b48a28bc74c063f6bc051": {
+      "comune": null,
+      "ente": "Comune di Mandatoriccio",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_TD",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "37cb6f51fd8e4b53a8c0e6c1b3aa35b2": {
+      "comune": null,
+      "ente": "Comune di Seveso",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_laurea_obbligatoria",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "3a0deae573cc408ab59bfa69b6c475e5": {
+      "comune": null,
+      "ente": "Comune di Montanaso Lombardo",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_fuori_raggio",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "3afd8100f7c4427ea492371ddbaef7ae": {
+      "comune": null,
+      "ente": "Comune di Borgo Virgilio",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_fuori_raggio",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "3ccd0f9a335e4617a12c7e38d384bc7a": {
+      "comune": null,
+      "ente": "Provincia di Monza e Brianza (interpello Istr. Amm.vo)",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_avviso_mobilita",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "3f6cdfaa623444b29cd0ace8d6e14ffb": {
+      "comune": null,
+      "ente": "Universita' di Trieste",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_TD",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "473e62ba2a194874b57c19335b1fae5f": {
+      "comune": null,
+      "ente": "Azienda Speciale Consortile Alto Mantovano",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_TD",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "48703094efcf415483f085cec49ec024": {
+      "comune": null,
+      "ente": "Comune di Erba",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_fuori_raggio",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "49c269980741493aa179f05e873af3ee": {
+      "comune": null,
+      "ente": "Scuola Superiore Meridionale (SSM/4_2026, Napoli - Nazionale senza sede Milano)",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_fuori_raggio",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "4c4d5a6eedbb42649b347b452d20dcd0": {
+      "comune": null,
+      "ente": "Provincia di Sondrio / Comune di Valdidentro",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_fuori_raggio",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "4d1e3b82dd7044e79ed88ebc78d3e147": {
+      "comune": null,
+      "ente": "Comune di Arzignano VI (Istruttore Culturale)",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_fuori_raggio",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "4e13d2a328ee4e76a6673299ce15b075": {
+      "comune": null,
+      "ente": "Asst Fatebenefratelli Sacco (Dirigente Amm.vo Bilancio)",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_laurea_obbligatoria",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "52656985a1764bd497c659bb558afbcb": {
+      "comune": "Figino Serenza",
+      "ente": "Comune di Figino Serenza",
+      "km": 15.6,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": "2026-08-21",
+      "stato_valutazione": "compatibile",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "52e4c9900ed842728b87ad8bd86c5577": {
+      "comune": null,
+      "ente": "Comune di Castelcovati",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_fuori_raggio",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "56552140be354aeead7f94d810c7ee26": {
+      "comune": null,
+      "ente": "Comune di Somma Lombardo (manifestazione interesse)",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_avviso_mobilita",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "583fbc7fbd6a48bc8bdbb773d7d24ffc": {
+      "comune": null,
+      "ente": "Scuola Superiore Meridionale (post-doc)",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_altro",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "5a62b0e81a9e4086a58e98e349fe8d57": {
+      "comune": null,
+      "ente": "Comune di Saronno",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_laurea_obbligatoria",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "601de26e4f2540d1a3c12f1f770722fc": {
+      "comune": "Carugate",
+      "ente": "Comune di Carugate",
+      "km": 13.9,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": "2026-08-06",
+      "stato_valutazione": "compatibile",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "64883551081b4310a4404981bc12b65f": {
+      "comune": null,
+      "ente": "Provincia di Monza e Brianza (interpello Funz. Amm. Contabile)",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_avviso_mobilita",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "64b4b37817064af08b9175b4246574d4": {
+      "comune": null,
+      "ente": "CNR (bando 331.9 TEC ISPC)",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_altro",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "6630cba997fc42158b11641f2f824ddc": {
+      "comune": "Cernusco sul Naviglio",
+      "ente": "Comune di Cernusco sul Naviglio",
+      "km": 13.7,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": "2026-08-15",
+      "stato_valutazione": "compatibile",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "6677b889c42f40748ee7d459f71700e6": {
+      "comune": null,
+      "ente": "Comune di Briosco",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_diploma_indirizzo_specifico",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "6b943bcc673b4094887cfd065980c9db": {
+      "comune": null,
+      "ente": "Comune di Olgiate Comasco",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_fuori_raggio",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "6c4a134efbbd4c1ea782ad076d3e4900": {
+      "comune": null,
+      "ente": "Asst Fatebenefratelli Sacco (Dirigente Amm.vo Affari Generali)",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_laurea_obbligatoria",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "747fa30398e1492098a4ae1a6d7aeb29": {
+      "comune": null,
+      "ente": "Comune di Cesano Boscone",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_laurea_obbligatoria",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "75f826da8fe94cdd982e4a80f8495d9a": {
+      "comune": null,
+      "ente": "Universita' Milano-Bicocca (Area Funzionari)",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_laurea_obbligatoria",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "796f69cb64dd410b872bf656b89c8143": {
+      "comune": null,
+      "ente": "Comune di Bergamo (Istruttore Amministrativo)",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_fuori_raggio",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "79fb2252ec26457ab809ea204ada8929": {
+      "comune": null,
+      "ente": "CNR (bando 390.479 IFN)",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_altro",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "7bf71fee6cd445a9be6e5028a4487591": {
+      "comune": null,
+      "ente": "Comune di San Donato Milanese (Assistente Sociale)",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_altro",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "7eab0e31c17543f28d1292c51a59a7a2": {
+      "comune": "Renate",
+      "ente": "Comune di Renate",
+      "km": 18.8,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": "2026-07-20",
+      "stato_valutazione": "compatibile",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "83365b0c017e466889369c423007fb27": {
+      "comune": null,
+      "ente": "Comune di Orio al Serio",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_fuori_raggio",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "87b20543de4b4ec996a8dcf1066f8697": {
+      "comune": null,
+      "ente": "ASP Istituti Milanesi Martinitt e Stelline (Specialista Culturale)",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_TD",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "8961c96785b54ae1a16a3996df93f62a": {
+      "comune": null,
+      "ente": "Comune di Mantello",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_fuori_raggio",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "8b33d2b02fbe4dcbbbc90b229b1a6664": {
+      "comune": null,
+      "ente": "Comune di Flero",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_fuori_raggio",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "8b4264b5f1174a6dbad97af7945e4d93": {
+      "comune": "Morbegno",
+      "ente": "Comunita' Montana Valtellina di Morbegno (Funzionario Amministrativo)",
+      "km": 69.5,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_fuori_raggio",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "8caf73a56d5149ddab7c2be863924603": {
+      "comune": null,
+      "ente": "Comune di Dalmine",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_fuori_raggio",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "8cbc1583fad944d9a347e172e9237030": {
+      "comune": null,
+      "ente": "Comune di Isorella",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_fuori_raggio",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "8cc9ffc6ce3543f59b9a13c82adf2c81": {
+      "comune": "Giussano",
+      "ente": "Comune di Giussano (Agente Polizia Locale)",
+      "km": 14.5,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": "2026-09-10",
+      "stato_valutazione": "compatibile",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "91a48e88c880493d87dc7b18ce83c0c6": {
+      "comune": null,
+      "ente": "Universita' di Pavia (Dirigente)",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_altro",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "96b12e1b42aa47d6b782b67eb1aa7f10": {
+      "comune": "Besana in Brianza",
+      "ente": "Comune di Besana in Brianza",
+      "km": 17.3,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": "2026-08-12",
+      "stato_valutazione": "compatibile",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "972c187c1bdd44299582b21bc3ee6b6a": {
+      "comune": null,
+      "ente": "Comune di Gallarate (Funzionario Amministrativo)",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_fuori_raggio",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "9834470c427544a5ac419f9a9292b322": {
+      "comune": null,
+      "ente": "Provincia di Como (Funzionario Informatico)",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_fuori_raggio",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "9cacb72d879a445a8ddc75dd50d74bdb": {
+      "comune": "Truccazzano",
+      "ente": "Comune di Truccazzano (Funzionario Amministrativo/Contabile)",
+      "km": 25.4,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_fuori_raggio",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "9dd1e17dc7664063bfa86da72fc5e5eb": {
+      "comune": null,
+      "ente": "Comune di Lezzeno",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_TD",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "9e4afedfbdb04aebbe7deb88d5dfdbe1": {
+      "comune": null,
+      "ente": "ASP IMMeS e PAT",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_laurea_obbligatoria",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "a017a1359ea94a7c8f8dd72ee66490d3": {
+      "comune": null,
+      "ente": "Universita' di Pavia (tecnico-informatico)",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_fuori_raggio",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "a56acce57e06432f974baa9d6a2d5ad2": {
+      "comune": "Porto Valtravaglia",
+      "ente": "Comune di Porto Valtravaglia",
+      "km": 57.4,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_fuori_raggio",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "a5ebcb6090fc41769c540d131183d79b": {
+      "comune": null,
+      "ente": "Universita' dell'Insubria",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_TD",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "a720159db529449389c57eaf85702f5e": {
+      "comune": null,
+      "ente": "Asst Fatebenefratelli Sacco (Dirigente Amm.vo Economico)",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_laurea_obbligatoria",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "a8fa1c82cac74035bf3202d6984638a3": {
+      "comune": null,
+      "ente": "Comune di Cesano Maderno (avviso interpello da elenco idonei Cologno Monzese)",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_avviso_mobilita",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "a9fa16e159334ae28226520ea9d00f99": {
+      "comune": null,
+      "ente": "CNR (bando 390.495 ITB)",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_altro",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "abaef8e33c884c90a6737c460d6fb69c": {
+      "comune": "Bareggio",
+      "ente": "Comune di Bareggio (Istruttore Amministrativo-Bibliotecario)",
+      "km": 17.0,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": "2026-08-27",
+      "stato_valutazione": "compatibile",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "ac5a0d43c6fe4a25904a139ce1150eb9": {
+      "comune": null,
+      "ente": "Comune di Triuggio (Funzionario Amministrativo Contabile) - verificato PDF: richiede laurea in giurisprudenza/scienze giuridiche/economia",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_laurea_obbligatoria",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "ac7e41a588f74473b10f9ef53fbef254": {
+      "comune": null,
+      "ente": "Comune di Triuggio",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_laurea_obbligatoria",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "ae13ee59bb094de1bffba411730bc408": {
+      "comune": null,
+      "ente": "Comune di Tradate",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_fuori_raggio",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "b08aae60456e4105bc0da9d133d761c6": {
+      "comune": null,
+      "ente": "Comune di Paitone",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_fuori_raggio",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "b0b772322a7f4e92a76d4ccf72fe1f62": {
+      "comune": null,
+      "ente": "Comune di Albavilla",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_fuori_raggio",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "b3c62bdab2df4f93b33298125e9675fd": {
+      "comune": null,
+      "ente": "Comune di Chiari",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_fuori_raggio",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "b45fc3bbcf734ac8ae03ee5ae5d8e076": {
+      "comune": null,
+      "ente": "Comune di Calcinato",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_fuori_raggio",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "b465be4c03a0483483d93fe9b6172151": {
+      "comune": null,
+      "ente": "Provincia di Lecco (Airuno/Barzio)",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_fuori_raggio",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "b4f1ef9f6ef042a1bfc381be9f043193": {
+      "comune": null,
+      "ente": "OMCEO Como",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_altro",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "b62623a0b21048768884d7c087281432": {
+      "comune": null,
+      "ente": "Provincia di Como (Istruttore Tecnico-Elettrotecnico)",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_altro",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "b70f293488584099a895db50051eb333": {
+      "comune": null,
+      "ente": "Scuola Superiore Meridionale (SSM/3_2026, Napoli - Nazionale senza sede Milano)",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_fuori_raggio",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "c1fed43faf964913a647ec68a6012fde": {
+      "comune": null,
+      "ente": "Comune di Seriate",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_fuori_raggio",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "c219267515b34475999b4173e26748f1": {
+      "comune": "Milano",
+      "ente": "Universita' degli Studi di Milano-Bicocca",
+      "km": 12.1,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": "2026-08-07",
+      "stato_valutazione": "compatibile",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "c21f4e4d354942549705c16683621f85": {
+      "comune": null,
+      "ente": "CNR (bando 390.481 IMATI)",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_altro",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "c42a2713df524346878398a6424193a5": {
+      "comune": null,
+      "ente": "Comune di Endine Gaiano",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_fuori_raggio",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "c83eca275ad048d493db06dde99f0952": {
+      "comune": null,
+      "ente": "Comune di Borno",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_TD",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "c8893db1b00b4cc2b9b6a0b22d8e114e": {
+      "comune": null,
+      "ente": "Ufficio d'Ambito Territoriale Ottimale Provincia di Varese",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_fuori_raggio",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "c8bb2605bfc54be286c8a24a0947dab3": {
+      "comune": null,
+      "ente": "Comune di Boltiere",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_fuori_raggio",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "ca46bfb7f60e4c099e2f2dc7123c5920": {
+      "comune": null,
+      "ente": "Comune di Inveruno (progressione interna)",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_avviso_mobilita",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "cbaea4d73a0e4b89860ec76b3d691154": {
+      "comune": null,
+      "ente": "Comune di Lallio",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_fuori_raggio",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "ce7b48dd457f4c5299d6c9ce2628420b": {
+      "comune": null,
+      "ente": "Comune di Pisogne",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_fuori_raggio",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "d22aa2dfe0f34795b1180a840b696a0e": {
+      "comune": null,
+      "ente": "Dalmine Sociale",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_fuori_raggio",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "d31fa9345c2344ba9f3ea4af253fb0b3": {
+      "comune": "Milano",
+      "ente": "Comune di Milano",
+      "km": 12.1,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": "2026-09-07",
+      "stato_valutazione": "compatibile",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "d47e1b60042b4b6db1431e28ed722fa6": {
+      "comune": null,
+      "ente": "Comune di Mantova",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_fuori_raggio",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "d5719d26811b42fda2b9b53b2ab3c69e": {
+      "comune": null,
+      "ente": "Comune di Villongo",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_fuori_raggio",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "d68868f8d48d4c8a9be380469362be04": {
+      "comune": "Concesio",
+      "ente": "Comune di Concesio (Agente Polizia Locale)",
+      "km": 81.2,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_fuori_raggio",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "d697d1823f644581bf7788ea3874ce51": {
+      "comune": null,
+      "ente": "Comune di Barbariga",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_fuori_raggio",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "da59df151d9242498f2e4ed0a79a2e50": {
+      "comune": null,
+      "ente": "Universita' di Trieste (Fundraiser)",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_fuori_raggio",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "dbb126e59194492c88a0625858625ec7": {
+      "comune": null,
+      "ente": "Politecnico delle Arti di Bergamo",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_fuori_raggio",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "dbfba3db3651464d8b67c20112e765c7": {
+      "comune": null,
+      "ente": "Comune di Bagolino",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_fuori_raggio",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "dc758af0024947d4a477ade461ab2f8f": {
+      "comune": null,
+      "ente": "Comune di Cologne (BS)",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_fuori_raggio",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "dd2432b5f00f4cc9821d8bd0d35a8fff": {
+      "comune": null,
+      "ente": "Unione Comuni Lombarda Magherno-Torre d'Arese",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_fuori_raggio",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "ddb2a707db2b4866b0f74075f65e3e4e": {
+      "comune": null,
+      "ente": "Universita' dell'Insubria (2 unita' TD)",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_TD",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "ddb3d930b5524c17bf3b034cd5e8771e": {
+      "comune": "Cesano Maderno",
+      "ente": "Comune di Cesano Maderno",
+      "km": 6.5,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": "2026-08-21",
+      "stato_valutazione": "compatibile",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "e27c52331b1b45a195bde922c5b9344f": {
+      "comune": null,
+      "ente": "Comune di Redondesco",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_fuori_raggio",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "e56b1bc006004102ad846a6cb3d76f0c": {
+      "comune": null,
+      "ente": "Universita' di Pavia (biblioteche)",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_fuori_raggio",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "e627d93e59274f1b9cb6b45eac449cf3": {
+      "comune": null,
+      "ente": "Comune di San Donato Milanese",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_TD",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "ec69acb27f854060947ba4fad475dccf": {
+      "comune": "Valsolda",
+      "ente": "Comune di Valsolda (Agente Polizia Locale)",
+      "km": 51.7,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_fuori_raggio",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "ec8586e81f3a40dd8a4b29a29a104032": {
+      "comune": null,
+      "ente": "Ordine Medici Chirurghi Odontoiatri Caserta",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_fuori_raggio",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "ee993ff5abc54d6584684dd6ccf1be8c": {
+      "comune": null,
+      "ente": "Comune di Treviolo",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_fuori_raggio",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "ef426111821142e2864ad4ca64ade94d": {
+      "comune": null,
+      "ente": "Comune di Arzignano (VI)",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_fuori_raggio",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "f7361030db9f4e039352eba953e9ff5c": {
+      "comune": null,
+      "ente": "Comune di Gavirate",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_TD",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "fa1c75e1b20d43de929d3b43c5778db3": {
+      "comune": "Ballabio",
+      "ente": "Comune di Ballabio",
+      "km": 41.1,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_fuori_raggio",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "fabfd95afdba490aa8eeae39eaced49d": {
+      "comune": null,
+      "ente": "Comune di Casazza",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_fuori_raggio",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "faeb774cddf24d5aabba4fdfd6ec5d23": {
+      "comune": null,
+      "ente": "CNR (bando 390.494 ISTP)",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_altro",
+      "ultimo_controllo": "2026-07-30"
+    },
+    "fe7f936f2d474d0c86c4f1e5e155aa9a": {
+      "comune": null,
+      "ente": "CNR (bando 390.504 IBSBC)",
+      "km": null,
+      "prima_rilevazione": "2026-07-30",
+      "scadenza": null,
+      "stato_valutazione": "escluso_altro",
+      "ultimo_controllo": "2026-07-30"
+    }
+  },
+  "ultima_esecuzione": "2026-07-30"
+}
