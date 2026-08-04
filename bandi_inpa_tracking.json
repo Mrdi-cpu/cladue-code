@@ -297,6 +297,24 @@
       "stato_valutazione": "escluso_laurea_obbligatoria",
       "ultimo_controllo": "2026-07-30"
     },
+    "38d7c78eda0548dfb26e0294ac1d4bba": {
+      "apertura": "2026-08-03T10:00:00Z",
+      "concorso_id": "38d7c78eda0548dfb26e0294ac1d4bba",
+      "ente": "Comune di Cavenago di Brianza",
+      "link_inpa": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=38d7c78eda0548dfb26e0294ac1d4bba",
+      "link_pdf": "https://portale.inpa.gov.it/api/media/282d79dd-0d2a-4972-9d73-2738681a8569",
+      "posti": 1,
+      "prima_rilevazione": "2026-08-04",
+      "profilo": "ISTRUTTORE AMMINISTRATIVO CONTABILE",
+      "raw_sedi": [
+        "Lombardia",
+        "Monza e della Brianza"
+      ],
+      "scadenza": "2026-09-10T21:59:00Z",
+      "stato_valutazione": "escluso_TD",
+      "ultimo_controllo": "2026-08-04",
+      "valutazione": "ESAMI"
+    },
     "38e63db113504538a694be099fd00eed": {
       "apertura": "2026-07-31T10:00:00Z",
       "comune": "Lombardia",
@@ -645,6 +663,42 @@
       "ultimo_controllo": "2026-07-31",
       "valutazione": "ESAMI"
     },
+    "77aef693e83b4eee908d776fea366c1c": {
+      "apertura": "2026-08-03T10:00:00Z",
+      "concorso_id": "77aef693e83b4eee908d776fea366c1c",
+      "ente": "Comune di Carugate",
+      "link_inpa": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=77aef693e83b4eee908d776fea366c1c",
+      "link_pdf": "https://portale.inpa.gov.it/api/media/a41cdee8-f38a-44a0-a30d-517276756853",
+      "posti": 1,
+      "prima_rilevazione": "2026-08-04",
+      "profilo": "Istruttore di Vigilanza",
+      "raw_sedi": [
+        "Lombardia",
+        "Milano"
+      ],
+      "scadenza": "2026-09-02T10:00:00Z",
+      "stato_valutazione": "escluso_TD",
+      "ultimo_controllo": "2026-08-04",
+      "valutazione": "ESAMI"
+    },
+    "78b3cbd42e1a4d738c12ac825af28fd3": {
+      "apertura": "2026-08-04T07:59:00Z",
+      "concorso_id": "78b3cbd42e1a4d738c12ac825af28fd3",
+      "ente": "Comune di Passirano",
+      "link_inpa": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=78b3cbd42e1a4d738c12ac825af28fd3",
+      "link_pdf": "https://portale.inpa.gov.it/api/media/e9990505-8109-46bd-8c81-26e2d0c8510f",
+      "posti": 1,
+      "prima_rilevazione": "2026-08-04",
+      "profilo": "ISTRUTTORE AMMINISTRATIVO",
+      "raw_sedi": [
+        "Lombardia",
+        "Brescia"
+      ],
+      "scadenza": "2026-08-24T21:59:00Z",
+      "stato_valutazione": "escluso_TD",
+      "ultimo_controllo": "2026-08-04",
+      "valutazione": "ESAMI"
+    },
     "796f69cb64dd410b872bf656b89c8143": {
       "comune": null,
       "ente": "Comune di Bergamo (Istruttore Amministrativo)",
@@ -698,6 +752,24 @@
       "scadenza": null,
       "stato_valutazione": "escluso_TD",
       "ultimo_controllo": "2026-07-30"
+    },
+    "8859afaef7dd493fb37aebab63d53be5": {
+      "apertura": "2026-08-03T10:00:00Z",
+      "concorso_id": "8859afaef7dd493fb37aebab63d53be5",
+      "ente": "Comune di Seregno",
+      "link_inpa": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=8859afaef7dd493fb37aebab63d53be5",
+      "link_pdf": "https://portale.inpa.gov.it/api/media/27e1ea69-a1a1-4531-84ae-9cdbd2349550",
+      "posti": 2,
+      "prima_rilevazione": "2026-08-04",
+      "profilo": "Istruttore Direttivo Polizia Locale",
+      "raw_sedi": [
+        "Lombardia",
+        "Monza e della Brianza"
+      ],
+      "scadenza": "2026-09-02T10:00:00Z",
+      "stato_valutazione": "escluso_TD",
+      "ultimo_controllo": "2026-08-04",
+      "valutazione": "ESAMI"
     },
     "8961c96785b54ae1a16a3996df93f62a": {
       "comune": null,
@@ -1231,6 +1303,27 @@
       "stato_valutazione": "escluso_fuori_raggio",
       "ultimo_controllo": "2026-07-30"
     },
+    "dcd5b87e6d6943edba23ed2c87487b3b": {
+      "apertura": "2026-08-04T06:00:00Z",
+      "comune": "Lombardia",
+      "concorso_id": "dcd5b87e6d6943edba23ed2c87487b3b",
+      "ente": "Comune di Endine Gaiano",
+      "km": 47.1,
+      "link_inpa": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=dcd5b87e6d6943edba23ed2c87487b3b",
+      "link_pdf": "https://portale.inpa.gov.it/api/media/18226d4f-aa1f-4532-8773-04f5b5bb53b4",
+      "posti": 1,
+      "prima_rilevazione": "2026-08-04",
+      "profilo": "Agente di Polizia Locale",
+      "raw_sedi": [
+        "Lombardia",
+        "Bergamo"
+      ],
+      "scadenza": "2026-09-03T06:00:00Z",
+      "stato_valutazione": "escluso_fuori_raggio",
+      "tempo": "TI",
+      "ultimo_controllo": "2026-08-04",
+      "valutazione": "ESAMI"
+    },
     "dcdf8d4f6b5a40ff84abfaf28411bc0a": {
       "apertura": "2026-07-31T12:00:00Z",
       "comune": "Arzignano (VI)",
@@ -1420,5 +1513,5 @@
       "ultimo_controllo": "2026-07-30"
     }
   },
-  "ultima_esecuzione": "2026-07-31"
+  "ultima_esecuzione": "2026-08-04"
 }
