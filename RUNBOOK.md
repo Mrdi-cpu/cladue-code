@@ -102,6 +102,9 @@ permetta `portale.inpa.gov.it` e `nominatim.openstreetmap.org`.
 8. Output all'utente secondo il formato gia' concordato in precedenza (due
    tabelle: nuovi compatibili, poi gia' segnalati ancora aperti; oppure
    messaggio breve se non c'e' nulla di nuovo) + riepilogo statistiche.
+   OGNI riga di OGNI tabella DEVE includere il link diretto al bando
+   (`link_inpa`), non solo ente/profilo/comune/km/scadenza: senza il link
+   l'utente non puo' aprire il bando, quindi non e' un dettaglio omissibile.
 
 9. Se questa e' un'esecuzione schedulata automatica (nessuno sta guardando
    la sessione dal vivo) e sono stati trovati bandi NUOVI compatibili,
