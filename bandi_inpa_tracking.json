@@ -9,6 +9,26 @@
       "stato_valutazione": "escluso_laurea_obbligatoria",
       "ultimo_controllo": "2026-07-30"
     },
+    "02a5f9269fe9492db33f6e2d3503b547": {
+      "apertura": "2026-08-07T07:00:00Z",
+      "concorso_id": "02a5f9269fe9492db33f6e2d3503b547",
+      "ente": "Universita' degli Studi di Pavia",
+      "link_inpa": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=02a5f9269fe9492db33f6e2d3503b547",
+      "link_pdf": "https://portale.inpa.gov.it/api/media/2e292262-d232-4127-b3a8-28629827dc65",
+      "posti": 1,
+      "prima_rilevazione": "2026-08-10",
+      "profilo": "Funzionario - settore tecnico-informatico",
+      "raw_sedi": [
+        "Lombardia",
+        "Pavia"
+      ],
+      "scadenza": "2026-09-07T10:00:00Z",
+      "stato_valutazione": "escluso_laurea_obbligatoria",
+      "tempo": "TI",
+      "ultimo_controllo": "2026-08-10",
+      "valutazione": "TITOLI_ESAMI",
+      "valutazione_nota": "Art. 5 del bando: richiesta laurea triennale (o equivalente) per l'Area dei Funzionari - settore tecnico-informatico."
+    },
     "02d793dc608a49f8a89ec904a31572d9": {
       "comune": null,
       "ente": "Comune di Dazio",
@@ -17,6 +37,24 @@
       "scadenza": null,
       "stato_valutazione": "escluso_fuori_raggio",
       "ultimo_controllo": "2026-07-30"
+    },
+    "0356027c1c304047add4f85c72df9acb": {
+      "apertura": "2025-08-26T08:47:00Z",
+      "concorso_id": "0356027c1c304047add4f85c72df9acb",
+      "ente": "Provincia di Monza e della Brianza",
+      "link_inpa": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=0356027c1c304047add4f85c72df9acb",
+      "link_pdf": null,
+      "posti": 1,
+      "prima_rilevazione": "2026-08-10",
+      "profilo": "Istruttore amministrativo",
+      "raw_sedi": [
+        "Monza e della Brianza",
+        "Lombardia"
+      ],
+      "scadenza": "2026-09-01T10:00:00Z",
+      "stato_valutazione": "escluso_avviso_mobilita",
+      "ultimo_controllo": "2026-08-10",
+      "valutazione": "COLLOQUIO"
     },
     "03abadc0ac2645588a82bcbfa4ffd551": {
       "comune": null,
@@ -409,6 +447,25 @@
       "stato_valutazione": "escluso_avviso_mobilita",
       "ultimo_controllo": "2026-07-30"
     },
+    "3f1aa0c1fc094bd5b3e2ac9631cffe25": {
+      "apertura": "2026-08-07T10:30:00Z",
+      "concorso_id": "3f1aa0c1fc094bd5b3e2ac9631cffe25",
+      "ente": "Comune di San Mauro Torinese",
+      "link_inpa": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=3f1aa0c1fc094bd5b3e2ac9631cffe25",
+      "link_pdf": "https://portale.inpa.gov.it/api/media/04d06a73-19d9-41f5-ae39-67301f969619",
+      "posti": 1,
+      "prima_rilevazione": "2026-08-10",
+      "profilo": "ISTRUTTORE AMMINISTATIVO -AREA ISTRUTTORI",
+      "raw_sedi": [
+        "Nazionale"
+      ],
+      "scadenza": "2026-09-03T11:00:00Z",
+      "stato_valutazione": "escluso_altro",
+      "tempo": "TI",
+      "ultimo_controllo": "2026-08-10",
+      "valutazione": "ESAMI",
+      "valutazione_nota": "Concorso riservato esclusivamente ai soggetti di cui all'art. 1 L.68/99 (categorie protette), non aperto al pubblico generico."
+    },
     "3f6cdfaa623444b29cd0ace8d6e14ffb": {
       "comune": null,
       "ente": "Universita' di Trieste",
@@ -695,6 +752,27 @@
       "stato_valutazione": "escluso_laurea_obbligatoria",
       "ultimo_controllo": "2026-07-30"
     },
+    "7358dc22cacc458cbc02bbdc9f625f48": {
+      "apertura": "2026-08-06T11:00:00Z",
+      "comune": "Ponte Lambro",
+      "concorso_id": "7358dc22cacc458cbc02bbdc9f625f48",
+      "ente": "Comune di Ponte Lambro",
+      "km": 28.7,
+      "link_inpa": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=7358dc22cacc458cbc02bbdc9f625f48",
+      "link_pdf": "https://portale.inpa.gov.it/api/media/e093ce6f-f82c-44cb-914b-e5601487c4aa",
+      "posti": 1,
+      "prima_rilevazione": "2026-08-10",
+      "profilo": "FUNZIONARIO",
+      "raw_sedi": [
+        "Lombardia",
+        "Como"
+      ],
+      "scadenza": "2026-09-07T21:59:00Z",
+      "stato_valutazione": "escluso_fuori_raggio",
+      "tempo": "TI",
+      "ultimo_controllo": "2026-08-10",
+      "valutazione": "ESAMI"
+    },
     "747fa30398e1492098a4ae1a6d7aeb29": {
       "comune": null,
       "ente": "Comune di Cesano Boscone",
@@ -703,6 +781,24 @@
       "scadenza": null,
       "stato_valutazione": "escluso_laurea_obbligatoria",
       "ultimo_controllo": "2026-07-30"
+    },
+    "74a3e1a6df9b4316a969ac2d94eb97cf": {
+      "apertura": "2026-08-07T11:00:00Z",
+      "concorso_id": "74a3e1a6df9b4316a969ac2d94eb97cf",
+      "ente": "Comune di Vimercate",
+      "link_inpa": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=74a3e1a6df9b4316a969ac2d94eb97cf",
+      "link_pdf": "https://portale.inpa.gov.it/api/media/8695d5b6-31d4-46de-94e3-e60253a4e340",
+      "posti": 1,
+      "prima_rilevazione": "2026-08-10",
+      "profilo": "ISTRUTTORE DEI SERVIZI AMMINISTRATIVI (ISA)",
+      "raw_sedi": [
+        "Lombardia",
+        "Monza e della Brianza"
+      ],
+      "scadenza": "2026-09-05T21:59:00Z",
+      "stato_valutazione": "escluso_avviso_mobilita",
+      "ultimo_controllo": "2026-08-10",
+      "valutazione": "ESAMI"
     },
     "75f826da8fe94cdd982e4a80f8495d9a": {
       "comune": null,
@@ -771,6 +867,24 @@
       "scadenza": "2026-08-24T21:59:00Z",
       "stato_valutazione": "escluso_TD",
       "ultimo_controllo": "2026-08-04",
+      "valutazione": "ESAMI"
+    },
+    "78cb017850384869bfee5b5656932caf": {
+      "apertura": "2026-08-06T08:30:00Z",
+      "concorso_id": "78cb017850384869bfee5b5656932caf",
+      "ente": "Comune di Leffe",
+      "link_inpa": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=78cb017850384869bfee5b5656932caf",
+      "link_pdf": "https://portale.inpa.gov.it/api/media/c27afb56-702c-4bfa-9cd0-7185ce375118",
+      "posti": 1,
+      "prima_rilevazione": "2026-08-10",
+      "profilo": "istruttore amministrativo area degli istruttori",
+      "raw_sedi": [
+        "Lombardia",
+        "Bergamo"
+      ],
+      "scadenza": "2026-08-16T08:30:00Z",
+      "stato_valutazione": "escluso_TD",
+      "ultimo_controllo": "2026-08-10",
       "valutazione": "ESAMI"
     },
     "796f69cb64dd410b872bf656b89c8143": {
@@ -875,6 +989,24 @@
       "scadenza": null,
       "stato_valutazione": "escluso_fuori_raggio",
       "ultimo_controllo": "2026-07-30"
+    },
+    "8c5fd22e241440d38cde3a6409b8455c": {
+      "apertura": "2026-08-07T10:30:00Z",
+      "concorso_id": "8c5fd22e241440d38cde3a6409b8455c",
+      "ente": "Comune di Maccagno con Pino e Veddasca",
+      "link_inpa": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=8c5fd22e241440d38cde3a6409b8455c",
+      "link_pdf": "https://portale.inpa.gov.it/api/media/51628ce4-298a-41ef-b3f4-cc56400b1bbe",
+      "posti": 1,
+      "prima_rilevazione": "2026-08-10",
+      "profilo": "ISTRUTTORE AMMINISTRATIVO",
+      "raw_sedi": [
+        "Lombardia",
+        "Varese"
+      ],
+      "scadenza": "2026-09-12T10:00:00Z",
+      "stato_valutazione": "escluso_TD",
+      "ultimo_controllo": "2026-08-10",
+      "valutazione": "ESAMI"
     },
     "8caf73a56d5149ddab7c2be863924603": {
       "comune": null,
@@ -1055,6 +1187,24 @@
       "scadenza": null,
       "stato_valutazione": "escluso_fuori_raggio",
       "ultimo_controllo": "2026-07-30"
+    },
+    "a2d95246b53f4ae7b84887c917057031": {
+      "apertura": "2026-08-07T14:40:00Z",
+      "concorso_id": "a2d95246b53f4ae7b84887c917057031",
+      "ente": "Accademia di Belle Arti di Brera",
+      "link_inpa": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=a2d95246b53f4ae7b84887c917057031",
+      "link_pdf": "https://portale.inpa.gov.it/api/media/9df86892-4069-4c90-adf4-f3f75f368b53",
+      "posti": 1,
+      "prima_rilevazione": "2026-08-10",
+      "profilo": "PROJECT MANAGER",
+      "raw_sedi": [
+        "Lombardia",
+        "Milano"
+      ],
+      "scadenza": "2026-08-27T21:59:00Z",
+      "stato_valutazione": "escluso_TD",
+      "ultimo_controllo": "2026-08-10",
+      "valutazione": "TITOLI"
     },
     "a56acce57e06432f974baa9d6a2d5ad2": {
       "comune": "Porto Valtravaglia",
@@ -1244,6 +1394,25 @@
       "ultimo_controllo": "2026-07-31",
       "valutazione": "COLLOQUIO"
     },
+    "bd00d267b8e541538143bf9ea2ac99d4": {
+      "apertura": "2026-08-07T11:00:00Z",
+      "concorso_id": "bd00d267b8e541538143bf9ea2ac99d4",
+      "ente": "Universita' degli Studi di Trieste",
+      "link_inpa": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=bd00d267b8e541538143bf9ea2ac99d4",
+      "link_pdf": "https://portale.inpa.gov.it/api/media/3efece0a-6b2a-4ddd-a419-b0adbd852a91",
+      "posti": 2,
+      "prima_rilevazione": "2026-08-10",
+      "profilo": "funzionario del settore amministrativo-gestionale",
+      "raw_sedi": [
+        "Nazionale"
+      ],
+      "scadenza": "2026-09-07T21:59:00Z",
+      "stato_valutazione": "escluso_laurea_obbligatoria",
+      "tempo": "TI",
+      "ultimo_controllo": "2026-08-10",
+      "valutazione": "TITOLI_COLLOQUIO",
+      "valutazione_nota": "Art. 2 del bando: richiesta laurea (triennale/magistrale/vecchio ordinamento) per l'Area dei Funzionari - settore amministrativo-gestionale."
+    },
     "c1fed43faf964913a647ec68a6012fde": {
       "comune": null,
       "ente": "Comune di Seriate",
@@ -1334,6 +1503,45 @@
       "stato_valutazione": "escluso_fuori_raggio",
       "ultimo_controllo": "2026-07-30"
     },
+    "cec8c3e8ae5244229f2d921ff3f41775": {
+      "apertura": "2026-08-07T10:00:00Z",
+      "comune": "Faloppio",
+      "concorso_id": "cec8c3e8ae5244229f2d921ff3f41775",
+      "ente": "Comune di Faloppio",
+      "km": 30.5,
+      "link_inpa": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=cec8c3e8ae5244229f2d921ff3f41775",
+      "link_pdf": "https://portale.inpa.gov.it/api/media/3ff1ef1e-0c6e-4c8d-8517-453ee0c8d40f",
+      "posti": 1,
+      "prima_rilevazione": "2026-08-10",
+      "profilo": "Agente di Polizia Locale",
+      "raw_sedi": [
+        "Lombardia",
+        "Como"
+      ],
+      "scadenza": "2026-09-07T10:00:00Z",
+      "stato_valutazione": "escluso_fuori_raggio",
+      "tempo": "TI",
+      "ultimo_controllo": "2026-08-10",
+      "valutazione": "ESAMI"
+    },
+    "cee2560a15ef447695b09c98d812672e": {
+      "apertura": "2026-08-07T10:00:00Z",
+      "concorso_id": "cee2560a15ef447695b09c98d812672e",
+      "ente": "Comune di Luino",
+      "link_inpa": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=cee2560a15ef447695b09c98d812672e",
+      "link_pdf": "https://portale.inpa.gov.it/api/media/7701802e-a69c-4f37-a934-98993b486351",
+      "posti": 1,
+      "prima_rilevazione": "2026-08-10",
+      "profilo": "Addetto alla comunicazione istituzionale, gestione dei canali digitali e informazione alla collettività",
+      "raw_sedi": [
+        "Lombardia",
+        "Varese"
+      ],
+      "scadenza": "2026-09-05T10:00:00Z",
+      "stato_valutazione": "escluso_TD",
+      "ultimo_controllo": "2026-08-10",
+      "valutazione": "TITOLI"
+    },
     "d22aa2dfe0f34795b1180a840b696a0e": {
       "comune": null,
       "ente": "Dalmine Sociale",
@@ -1381,6 +1589,24 @@
       "scadenza": null,
       "stato_valutazione": "escluso_fuori_raggio",
       "ultimo_controllo": "2026-07-30"
+    },
+    "d4c1bb5969ca46a8841752a07a3db93d": {
+      "apertura": "2026-08-07T10:00:00Z",
+      "concorso_id": "d4c1bb5969ca46a8841752a07a3db93d",
+      "ente": "Comune di Luino",
+      "link_inpa": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=d4c1bb5969ca46a8841752a07a3db93d",
+      "link_pdf": "https://portale.inpa.gov.it/api/media/c2c5fb30-3b59-44aa-ba96-be545e2cac7a",
+      "posti": 1,
+      "prima_rilevazione": "2026-08-10",
+      "profilo": "Addetto al supporto programmatorio e monitoraggio dello stato di attuazione delle linee di mandato",
+      "raw_sedi": [
+        "Lombardia",
+        "Varese"
+      ],
+      "scadenza": "2026-09-05T10:00:00Z",
+      "stato_valutazione": "escluso_TD",
+      "ultimo_controllo": "2026-08-10",
+      "valutazione": "TITOLI"
     },
     "d5719d26811b42fda2b9b53b2ab3c69e": {
       "comune": null,
@@ -1510,6 +1736,27 @@
       "stato_valutazione": "compatibile",
       "ultimo_controllo": "2026-07-30"
     },
+    "e00d45aafd6e48b99e646e775090462a": {
+      "apertura": "2026-08-05T22:00:00Z",
+      "comune": "Leno",
+      "concorso_id": "e00d45aafd6e48b99e646e775090462a",
+      "ente": "Comune di Leno",
+      "km": null,
+      "link_inpa": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=e00d45aafd6e48b99e646e775090462a",
+      "link_pdf": "https://portale.inpa.gov.it/api/media/8c372082-1dc3-4a02-89e1-659344983b26",
+      "posti": 1,
+      "prima_rilevazione": "2026-08-10",
+      "profilo": "ISTRUTTORE AMMINISTRATIVO CONTABILE",
+      "raw_sedi": [
+        "Lombardia",
+        "Brescia"
+      ],
+      "scadenza": "2026-09-20T21:59:00Z",
+      "stato_valutazione": "escluso_fuori_raggio",
+      "tempo": "TI",
+      "ultimo_controllo": "2026-08-10",
+      "valutazione": "ESAMI"
+    },
     "e27c52331b1b45a195bde922c5b9344f": {
       "comune": null,
       "ente": "Comune di Redondesco",
@@ -1591,6 +1838,45 @@
       "stato_valutazione": "escluso_fuori_raggio",
       "ultimo_controllo": "2026-07-30"
     },
+    "f03184dead554be888e229f9d1267fa9": {
+      "apertura": "2026-08-07T10:00:00Z",
+      "comune": "Pandino",
+      "concorso_id": "f03184dead554be888e229f9d1267fa9",
+      "ente": "Comune di Pandino",
+      "km": null,
+      "link_inpa": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=f03184dead554be888e229f9d1267fa9",
+      "link_pdf": "https://portale.inpa.gov.it/api/media/824346ab-5fec-4b2a-9268-1f16309ddb7e",
+      "posti": 2,
+      "prima_rilevazione": "2026-08-10",
+      "profilo": "Istruttore Amministrativo",
+      "raw_sedi": [
+        "Lombardia",
+        "Cremona"
+      ],
+      "scadenza": "2026-08-27T10:00:00Z",
+      "stato_valutazione": "escluso_fuori_raggio",
+      "tempo": "TI",
+      "ultimo_controllo": "2026-08-10",
+      "valutazione": "ESAMI"
+    },
+    "f2f96b69321543fa8acf9f7964b67f58": {
+      "apertura": "2026-08-07T10:00:00Z",
+      "concorso_id": "f2f96b69321543fa8acf9f7964b67f58",
+      "ente": "Comune di Luino",
+      "link_inpa": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=f2f96b69321543fa8acf9f7964b67f58",
+      "link_pdf": "https://portale.inpa.gov.it/api/media/38b870f9-242b-49e3-bce9-38016de67210",
+      "posti": 1,
+      "prima_rilevazione": "2026-08-10",
+      "profilo": "Addetto alla valorizzazione del patrimonio storico culturale del Comune",
+      "raw_sedi": [
+        "Lombardia",
+        "Varese"
+      ],
+      "scadenza": "2026-09-05T10:00:00Z",
+      "stato_valutazione": "escluso_TD",
+      "ultimo_controllo": "2026-08-10",
+      "valutazione": "TITOLI"
+    },
     "f7361030db9f4e039352eba953e9ff5c": {
       "comune": null,
       "ente": "Comune di Gavirate",
@@ -1645,6 +1931,26 @@
       "stato_valutazione": "escluso_altro",
       "ultimo_controllo": "2026-07-30"
     },
+    "faf873a5204d42ac8401ceaf735bf5e1": {
+      "apertura": "2026-08-07T10:00:00Z",
+      "comune": "San Colombano al Lambro",
+      "concorso_id": "faf873a5204d42ac8401ceaf735bf5e1",
+      "ente": "Comune di San Colombano al Lambro",
+      "km": 50.1,
+      "link_inpa": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=faf873a5204d42ac8401ceaf735bf5e1",
+      "link_pdf": "https://portale.inpa.gov.it/api/media/33845a8e-bdbb-43f0-8d83-395c409bca19",
+      "posti": 1,
+      "prima_rilevazione": "2026-08-10",
+      "profilo": "Funzionario Amministrativo Contabile",
+      "raw_sedi": [
+        "Lombardia"
+      ],
+      "scadenza": "2026-09-17T10:00:00Z",
+      "stato_valutazione": "escluso_fuori_raggio",
+      "tempo": "TI",
+      "ultimo_controllo": "2026-08-10",
+      "valutazione": "ESAMI"
+    },
     "fe7f936f2d474d0c86c4f1e5e155aa9a": {
       "comune": null,
       "ente": "CNR (bando 390.504 IBSBC)",
@@ -1655,5 +1961,5 @@
       "ultimo_controllo": "2026-07-30"
     }
   },
-  "ultima_esecuzione": "2026-08-05"
+  "ultima_esecuzione": "2026-08-10"
 }
