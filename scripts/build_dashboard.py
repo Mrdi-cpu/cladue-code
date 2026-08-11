@@ -66,6 +66,33 @@ def render(records, run_date, fonts):
     return html
 
 
+def wrap_standalone(fragment):
+    """Avvolge il frammento (pensato per il visualizzatore Artifact, che
+    fornisce gia' <!doctype>/<html>/<head>/<body>) in un documento HTML
+    completo e autonomo, scaricabile e apribile direttamente in Safari o
+    aggiungibile alla schermata Home su iPhone senza passare da claude.ai.
+    """
+    head, _, body = fragment.partition("</style>")
+    head += "</style>"
+    return (
+        "<!DOCTYPE html>\n"
+        '<html lang="it">\n'
+        "<head>\n"
+        '<meta charset="UTF-8">\n'
+        '<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">\n'
+        '<meta name="apple-mobile-web-app-capable" content="yes">\n'
+        '<meta name="mobile-web-app-capable" content="yes">\n'
+        '<meta name="apple-mobile-web-app-status-bar-style" content="default">\n'
+        '<meta name="theme-color" content="#1f5c73">\n'
+        f"{head}\n"
+        "</head>\n"
+        "<body>\n"
+        f"{body}\n"
+        "</body>\n"
+        "</html>\n"
+    )
+
+
 TEMPLATE = r"""<title>Bacheca Bandi — Paderno Dugnano</title>
 <style>
 @font-face {
@@ -171,8 +198,8 @@ TEMPLATE = r"""<title>Bacheca Bandi — Paderno Dugnano</title>
   color-scheme: dark;
 }
 
-* { box-sizing: border-box; }
-html { -webkit-text-size-adjust: 100%; }
+* { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
 body {
   margin: 0;
   background: var(--bg);
@@ -185,7 +212,8 @@ body {
 .page {
   max-width: 640px;
   margin: 0 auto;
-  padding: 0 0 3rem;
+  padding: 0 0 calc(3rem + env(safe-area-inset-bottom, 0px));
+  min-height: 100vh;
   min-height: 100dvh;
 }
 a { color: var(--accent); }
@@ -269,12 +297,14 @@ a { color: var(--accent); }
 
 /* ---------- Controls ---------- */
 .controls {
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
   z-index: 5;
   background: var(--bg);
   padding: 0.85rem 1.25rem 0.75rem;
   border-bottom: 1px solid var(--border);
+  -webkit-backdrop-filter: saturate(1.4) blur(6px);
   backdrop-filter: saturate(1.4) blur(6px);
 }
 .search {
@@ -290,6 +320,8 @@ a { color: var(--accent); }
   pointer-events: none;
 }
 .search input {
+  -webkit-appearance: none;
+  appearance: none;
   width: 100%;
   padding: 0.6rem 0.75rem 0.6rem 2.1rem;
   border-radius: 10px;
@@ -312,6 +344,8 @@ a { color: var(--accent); }
 }
 .chiprow::-webkit-scrollbar { display: none; }
 .chip {
+  -webkit-appearance: none;
+  appearance: none;
   flex: none;
   font: inherit;
   font-size: 0.8rem;
@@ -331,6 +365,8 @@ a { color: var(--accent); }
 }
 .chip:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
 .sortbtn {
+  -webkit-appearance: none;
+  appearance: none;
   margin-left: auto;
   flex: none;
   display: inline-flex;
@@ -440,6 +476,8 @@ a { color: var(--accent); }
   flex-wrap: wrap;
 }
 .btn-open {
+  -webkit-appearance: none;
+  appearance: none;
   display: inline-flex;
   align-items: center;
   gap: 0.4em;
@@ -464,6 +502,8 @@ a { color: var(--accent); }
   user-select: none;
 }
 .toggle {
+  -webkit-appearance: none;
+  appearance: none;
   width: 36px; height: 21px;
   border-radius: 999px;
   background: var(--border);
@@ -472,6 +512,8 @@ a { color: var(--accent); }
   flex: none;
   cursor: pointer;
   transition: background 0.15s ease;
+  padding: 0;
+  margin: 0;
 }
 .toggle::after {
   content: "";
@@ -593,6 +635,8 @@ a { color: var(--accent); }
   flex-wrap: wrap;
 }
 .btn-ghost {
+  -webkit-appearance: none;
+  appearance: none;
   font: inherit;
   font-size: 0.8rem;
   font-weight: 500;
@@ -989,6 +1033,16 @@ def main():
     ap.add_argument("--tracking-file", required=True)
     ap.add_argument("--out", required=True)
     ap.add_argument("--run-date", default=None)
+    ap.add_argument(
+        "--standalone",
+        action="store_true",
+        help=(
+            "Genera un documento HTML completo (doctype/html/head/body) "
+            "apribile direttamente in un browser o salvabile come app da "
+            "schermata Home, invece del frammento pensato per l'Artifact "
+            "tool (che fornisce gia' l'involucro del documento)."
+        ),
+    )
     args = ap.parse_args()
 
     tracking = json.loads(Path(args.tracking_file).read_text())
@@ -1002,8 +1056,11 @@ def main():
     }
 
     html = render(records, run_date, fonts)
+    if args.standalone:
+        html = wrap_standalone(html)
     Path(args.out).write_text(html, encoding="utf-8")
-    print(f"Dashboard generata: {args.out} ({len(records)} bandi compatibili)")
+    kind = "standalone" if args.standalone else "frammento Artifact"
+    print(f"Dashboard generata ({kind}): {args.out} ({len(records)} bandi compatibili)")
 
 
 if __name__ == "__main__":
