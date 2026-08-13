@@ -182,6 +182,27 @@
       "stato_valutazione": "escluso_fuori_raggio",
       "ultimo_controllo": "2026-07-30"
     },
+    "1404be6a5f27411db171b558e93f1098": {
+      "apertura": "2026-08-12T22:01:00Z",
+      "comune": "Bedizzole",
+      "concorso_id": "1404be6a5f27411db171b558e93f1098",
+      "ente": "Comune di Bedizzole",
+      "km": null,
+      "link_inpa": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=1404be6a5f27411db171b558e93f1098",
+      "link_pdf": "https://portale.inpa.gov.it/api/media/41c71a26-0ee1-4fb8-b99a-593f7c21dbf5",
+      "posti": 1,
+      "prima_rilevazione": "2026-08-13",
+      "profilo": "ISTRUTTORE AMMINISTRATIVO CONTABILE",
+      "raw_sedi": [
+        "Lombardia",
+        "Brescia"
+      ],
+      "scadenza": "2026-09-11T21:59:00Z",
+      "stato_valutazione": "escluso_fuori_raggio",
+      "tempo": "TI",
+      "ultimo_controllo": "2026-08-13",
+      "valutazione": "ESAMI"
+    },
     "14c2d7d2dd6d4cf19648d9b125916108": {
       "comune": "Oliveto Lario",
       "ente": "Comune di Oliveto Lario",
@@ -208,6 +229,27 @@
       "scadenza": null,
       "stato_valutazione": "escluso_TD",
       "ultimo_controllo": "2026-07-30"
+    },
+    "18be9206119d4ed28d4b87103d3ebdab": {
+      "apertura": "2026-08-12T11:00:00Z",
+      "comune": "Curno",
+      "concorso_id": "18be9206119d4ed28d4b87103d3ebdab",
+      "ente": "Comune di Curno",
+      "km": null,
+      "link_inpa": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=18be9206119d4ed28d4b87103d3ebdab",
+      "link_pdf": "https://portale.inpa.gov.it/api/media/82565135-dfd0-4e66-897d-9ac1ce104b94",
+      "posti": 2,
+      "prima_rilevazione": "2026-08-13",
+      "profilo": "Agente di Polizia Locale",
+      "raw_sedi": [
+        "Lombardia",
+        "Bergamo"
+      ],
+      "scadenza": "2026-09-11T11:00:00Z",
+      "stato_valutazione": "escluso_fuori_raggio",
+      "tempo": "TI",
+      "ultimo_controllo": "2026-08-13",
+      "valutazione": "ESAMI"
     },
     "19cffb1b84e0442f8961f0f03a85aca0": {
       "comune": null,
@@ -555,6 +597,27 @@
       "scadenza": null,
       "stato_valutazione": "escluso_fuori_raggio",
       "ultimo_controllo": "2026-07-30"
+    },
+    "4decf3b050934ef6b450a3d62caa7ee5": {
+      "apertura": "2026-08-10T11:00:00Z",
+      "comune": "Cantello",
+      "concorso_id": "4decf3b050934ef6b450a3d62caa7ee5",
+      "ente": "Comune di Cantello",
+      "km": 35.8,
+      "link_inpa": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=4decf3b050934ef6b450a3d62caa7ee5",
+      "link_pdf": "https://portale.inpa.gov.it/api/media/a2c6bd04-f3e0-4011-b337-7755b2e36f09",
+      "posti": 1,
+      "prima_rilevazione": "2026-08-13",
+      "profilo": "AGENTE DI POLIZIA LOCALE",
+      "raw_sedi": [
+        "Lombardia",
+        "Varese"
+      ],
+      "scadenza": "2026-08-23T21:59:00Z",
+      "stato_valutazione": "escluso_fuori_raggio",
+      "tempo": "TI",
+      "ultimo_controllo": "2026-08-13",
+      "valutazione": "ESAMI"
     },
     "4e13d2a328ee4e76a6673299ce15b075": {
       "comune": null,
@@ -905,6 +968,24 @@
       "stato_valutazione": "escluso_altro",
       "ultimo_controllo": "2026-07-30"
     },
+    "7aaea04c5f7a4553a3ef8236ce21fd32": {
+      "apertura": "2026-08-10T14:10:00Z",
+      "concorso_id": "7aaea04c5f7a4553a3ef8236ce21fd32",
+      "ente": "Comune di Sesto San Giovanni",
+      "link_inpa": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=7aaea04c5f7a4553a3ef8236ce21fd32",
+      "link_pdf": "https://portale.inpa.gov.it/api/media/b43a70a7-9a2c-4186-8035-ed75218fd5c9",
+      "posti": 3,
+      "prima_rilevazione": "2026-08-13",
+      "profilo": "Esperto amministrativo contabile",
+      "raw_sedi": [
+        "Lombardia",
+        "Milano"
+      ],
+      "scadenza": "2026-09-21T21:59:00Z",
+      "stato_valutazione": "escluso_TD",
+      "ultimo_controllo": "2026-08-13",
+      "valutazione": "ESAMI"
+    },
     "7bf71fee6cd445a9be6e5028a4487591": {
       "comune": null,
       "ente": "Comune di San Donato Milanese (Assistente Sociale)",
@@ -1206,6 +1287,27 @@
       "ultimo_controllo": "2026-08-10",
       "valutazione": "TITOLI"
     },
+    "a2fd3696cb69458183845d65203ff85c": {
+      "apertura": "2026-08-10T23:00:00Z",
+      "comune": "Orio Litta",
+      "concorso_id": "a2fd3696cb69458183845d65203ff85c",
+      "ente": "Comune di Orio Litta",
+      "km": null,
+      "link_inpa": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=a2fd3696cb69458183845d65203ff85c",
+      "link_pdf": "https://portale.inpa.gov.it/api/media/581ea3bd-376a-4a77-ac4f-f5feea13dace",
+      "posti": 1,
+      "prima_rilevazione": "2026-08-13",
+      "profilo": "Istruttore Amministrativo",
+      "raw_sedi": [
+        "Lombardia",
+        "Lodi"
+      ],
+      "scadenza": "2026-08-25T21:59:00Z",
+      "stato_valutazione": "escluso_fuori_raggio",
+      "tempo": "TI",
+      "ultimo_controllo": "2026-08-13",
+      "valutazione": "ESAMI"
+    },
     "a56acce57e06432f974baa9d6a2d5ad2": {
       "comune": "Porto Valtravaglia",
       "ente": "Comune di Porto Valtravaglia",
@@ -1449,6 +1551,27 @@
       "stato_valutazione": "escluso_fuori_raggio",
       "ultimo_controllo": "2026-07-30"
     },
+    "c441502f8bee4036a2482800dbe1d8b3": {
+      "apertura": "2026-08-11T10:00:00Z",
+      "comune": "Teglio",
+      "concorso_id": "c441502f8bee4036a2482800dbe1d8b3",
+      "ente": "Comune di Teglio",
+      "km": null,
+      "link_inpa": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=c441502f8bee4036a2482800dbe1d8b3",
+      "link_pdf": "https://portale.inpa.gov.it/api/media/0185539f-9a9a-41ef-bb22-b11f36ac212e",
+      "posti": 1,
+      "prima_rilevazione": "2026-08-13",
+      "profilo": "ISTRUTTORE DIRETTIVO AMMINISTRATIVO-CONTABILE",
+      "raw_sedi": [
+        "Lombardia",
+        "Sondrio"
+      ],
+      "scadenza": "2026-09-10T21:59:00Z",
+      "stato_valutazione": "escluso_fuori_raggio",
+      "tempo": "TI",
+      "ultimo_controllo": "2026-08-13",
+      "valutazione": "ESAMI"
+    },
     "c83eca275ad048d493db06dde99f0952": {
       "comune": null,
       "ente": "Comune di Borno",
@@ -1475,6 +1598,27 @@
       "scadenza": null,
       "stato_valutazione": "escluso_fuori_raggio",
       "ultimo_controllo": "2026-07-30"
+    },
+    "ca3eefe55eb24a309e7779f0381bda14": {
+      "apertura": "2026-08-10T14:45:00Z",
+      "comune": "Roncadelle",
+      "concorso_id": "ca3eefe55eb24a309e7779f0381bda14",
+      "ente": "Comune di Roncadelle",
+      "km": null,
+      "link_inpa": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=ca3eefe55eb24a309e7779f0381bda14",
+      "link_pdf": "https://portale.inpa.gov.it/api/media/2ebee38f-54a6-48d8-aa44-4e49d6b1303f",
+      "posti": 1,
+      "prima_rilevazione": "2026-08-13",
+      "profilo": "Funzionario amministrativo",
+      "raw_sedi": [
+        "Lombardia",
+        "Brescia"
+      ],
+      "scadenza": "2026-09-14T21:59:00Z",
+      "stato_valutazione": "escluso_fuori_raggio",
+      "tempo": "TI",
+      "ultimo_controllo": "2026-08-13",
+      "valutazione": "TITOLI_ESAMI"
     },
     "ca46bfb7f60e4c099e2f2dc7123c5920": {
       "comune": null,
@@ -1961,5 +2105,5 @@
       "ultimo_controllo": "2026-07-30"
     }
   },
-  "ultima_esecuzione": "2026-08-10"
+  "ultima_esecuzione": "2026-08-13"
 }
