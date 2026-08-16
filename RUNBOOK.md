@@ -92,18 +92,43 @@ permetta `portale.inpa.gov.it` e `nominatim.openstreetmap.org`.
      --run-date <data odierna in formato YYYY-MM-DD>
    ```
 
-7. Commit e push:
+7. Rigenera e ripubblica la dashboard "Bacheca Bandi" (l'output primario
+   della routine, pensata per l'uso da smartphone):
    ```
-   git add bandi_inpa_tracking.json geocode_cache.json
-   git commit -m "Aggiornamento bandi inPA <data>"
-   git push
+   python3 scripts/build_dashboard.py \
+     --tracking-file bandi_inpa_tracking.json \
+     --out /tmp/bacheca_bandi.html
    ```
+   Leggi l'URL esistente da `dashboard_url.txt` (alla radice del repo) e
+   pubblica/aggiorna l'Artifact passando quell'URL come `url` (NON creare
+   un nuovo Artifact ogni volta: deve restare sempre la stessa pagina/link,
+   cosi' l'utente puo' salvarla come collegamento sulla home dello
+   smartphone). Se `dashboard_url.txt` non esiste ancora (prima esecuzione
+   dopo l'introduzione della dashboard), pubblica un nuovo Artifact e
+   scrivi l'URL restituito in `dashboard_url.txt`, poi includilo nel
+   commit del punto 9.
+   Nota: lo stato "mi sono iscritto/a" vive nel localStorage del browser
+   dell'utente, non nel tracking file — rigenerare la dashboard con dati
+   aggiornati NON cancella le candidature gia' segnate dall'utente.
 
 8. Output all'utente secondo il formato gia' concordato in precedenza (due
    tabelle: nuovi compatibili, poi gia' segnalati ancora aperti; oppure
-   messaggio breve se non c'e' nulla di nuovo) + riepilogo statistiche.
+   messaggio breve se non c'e' nulla di nuovo) + riepilogo statistiche +
+   il link alla dashboard aggiornata.
+   OGNI riga di OGNI tabella DEVE includere il link diretto al bando
+   (`link_inpa`), non solo ente/profilo/comune/km/scadenza: senza il link
+   l'utente non puo' aprire il bando, quindi non e' un dettaglio omissibile.
 
-9. Se questa e' un'esecuzione schedulata automatica (nessuno sta guardando
-   la sessione dal vivo) e sono stati trovati bandi NUOVI compatibili,
-   manda una notifica push con il riepilogo. Se non c'e' nulla di nuovo,
-   resta in silenzio.
+9. Esegui:
+   ```
+   git add bandi_inpa_tracking.json geocode_cache.json dashboard_url.txt
+   git commit -m "Aggiornamento bandi inPA <data>"
+   git push
+   ```
+   (i file sotto `scripts/` cambiano solo se modifichi lo script stesso,
+   in tal caso aggiungili al commit).
+
+10. Se questa e' un'esecuzione schedulata automatica (nessuno sta guardando
+    la sessione dal vivo) e sono stati trovati bandi NUOVI compatibili,
+    manda una notifica push con il riepilogo (incluso il link alla
+    dashboard). Se non c'e' nulla di nuovo, resta in silenzio.
