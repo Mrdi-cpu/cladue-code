@@ -74,6 +74,27 @@
       "stato_valutazione": "escluso_altro",
       "ultimo_controllo": "2026-07-30"
     },
+    "0b8477cc1d264c14a4a82a6066f47387": {
+      "apertura": "2026-08-13T10:00:00Z",
+      "comune": "Saltrio",
+      "concorso_id": "0b8477cc1d264c14a4a82a6066f47387",
+      "ente": "Comune di Saltrio",
+      "km": 38.7,
+      "link_inpa": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=0b8477cc1d264c14a4a82a6066f47387",
+      "link_pdf": "https://portale.inpa.gov.it/api/media/5c4d8866-2e22-469e-bd67-fede832db3ed",
+      "posti": 1,
+      "prima_rilevazione": "2026-08-16",
+      "profilo": "Istruttore amministrativo contabile",
+      "raw_sedi": [
+        "Lombardia",
+        "Varese"
+      ],
+      "scadenza": "2026-09-19T10:00:00Z",
+      "stato_valutazione": "escluso_fuori_raggio",
+      "tempo": "TI",
+      "ultimo_controllo": "2026-08-16",
+      "valutazione": "ESAMI"
+    },
     "0baac5e82b284205a9cd1b6b004b89ef": {
       "comune": null,
       "ente": "Comune di San Giuliano Milanese (Polizia Locale)",
@@ -986,6 +1007,27 @@
       "ultimo_controllo": "2026-08-13",
       "valutazione": "ESAMI"
     },
+    "7b96a09e96044cd5af1ed43d8b028562": {
+      "apertura": "2026-08-13T15:11:00Z",
+      "comune": "Locate Varesino",
+      "concorso_id": "7b96a09e96044cd5af1ed43d8b028562",
+      "ente": "Comune di Locate Varesino",
+      "km": 22.6,
+      "link_inpa": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=7b96a09e96044cd5af1ed43d8b028562",
+      "link_pdf": "https://portale.inpa.gov.it/api/media/80c45085-232b-4dba-ab37-ab66e00dd8be",
+      "posti": 1,
+      "prima_rilevazione": "2026-08-16",
+      "profilo": "Funzionario di Vigilanza",
+      "raw_sedi": [
+        "Lombardia",
+        "Como"
+      ],
+      "scadenza": "2026-09-12T10:00:00Z",
+      "stato_valutazione": "escluso_fuori_raggio",
+      "tempo": "TI",
+      "ultimo_controllo": "2026-08-16",
+      "valutazione": "ESAMI"
+    },
     "7bf71fee6cd445a9be6e5028a4487591": {
       "comune": null,
       "ente": "Comune di San Donato Milanese (Assistente Sociale)",
@@ -1761,6 +1803,26 @@
       "stato_valutazione": "escluso_fuori_raggio",
       "ultimo_controllo": "2026-07-30"
     },
+    "d5b8c3afd5e342e5b186fc604a4f925c": {
+      "apertura": "2026-08-13T11:00:00Z",
+      "comune": "Marcallo con Casone",
+      "concorso_id": "d5b8c3afd5e342e5b186fc604a4f925c",
+      "ente": "Comune di Marcallo con Casone",
+      "km": 24.8,
+      "link_inpa": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=d5b8c3afd5e342e5b186fc604a4f925c",
+      "link_pdf": "https://portale.inpa.gov.it/api/media/94ac2faf-d774-4ed3-add7-0f182a7aab16",
+      "posti": 1,
+      "prima_rilevazione": "2026-08-16",
+      "profilo": "FUNZIONARIO AMMINISTRATIVO - AREA DEI FUNZIONARI ED ELEVATA QUALIFICAZIONE",
+      "raw_sedi": [
+        "Lombardia"
+      ],
+      "scadenza": "2026-09-15T10:00:00Z",
+      "stato_valutazione": "escluso_fuori_raggio",
+      "tempo": "TI",
+      "ultimo_controllo": "2026-08-16",
+      "valutazione": "ESAMI"
+    },
     "d68868f8d48d4c8a9be380469362be04": {
       "comune": "Concesio",
       "ente": "Comune di Concesio (Agente Polizia Locale)",
@@ -2105,5 +2167,5 @@
       "ultimo_controllo": "2026-07-30"
     }
   },
-  "ultima_esecuzione": "2026-08-13"
+  "ultima_esecuzione": "2026-08-16"
 }

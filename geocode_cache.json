@@ -95,5 +95,17 @@
   "cantello, varese": {
     "lat": 45.8271272,
     "lon": 8.8876818
+  },
+  "locate varesino, como": {
+    "lat": 45.6888509,
+    "lon": 8.9306787
+  },
+  "marcallo con casone": {
+    "lat": 45.4872199,
+    "lon": 8.8732761
+  },
+  "saltrio, varese": {
+    "lat": 45.8739084,
+    "lon": 8.921668
   }
 }
