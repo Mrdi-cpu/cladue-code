@@ -7,5 +7,137 @@
   "lombardia": {
     "lat": 45.5703694,
     "lon": 9.7732524
+  },
+  "san giuliano milanese, milano": {
+    "lat": 45.3949933,
+    "lon": 9.2842979
+  },
+  "fontanella": {
+    "lat": 45.4520739,
+    "lon": 9.7969803
+  },
+  "como, como": {
+    "lat": 45.8115623,
+    "lon": 9.0830353
+  },
+  "oliveto lario, lecco": {
+    "lat": 45.9292473,
+    "lon": 9.285912
+  },
+  "erba, como": {
+    "lat": 45.8162193,
+    "lon": 9.2202533
+  },
+  "arzignano": {
+    "lat": 45.5283479,
+    "lon": 11.3431088
+  },
+  "olgiate comasco, como": {
+    "lat": 45.7853256,
+    "lon": 8.9677744
+  },
+  "gallarate, varese": {
+    "lat": 45.6598951,
+    "lon": 8.7932013
+  },
+  "truccazzano": {
+    "lat": 45.483715,
+    "lon": 9.4685402
+  },
+  "porto valtravaglia, varese": {
+    "lat": 45.9613696,
+    "lon": 8.6818093
+  },
+  "tradate, varese": {
+    "lat": 45.7142931,
+    "lon": 8.9041464
+  },
+  "valsolda, como": {
+    "lat": 46.0290953,
+    "lon": 9.0438685
+  },
+  "ballabio, lecco": {
+    "lat": 45.8960629,
+    "lon": 9.4239921
+  },
+  "vimercate, monza e della brianza": {
+    "lat": 45.6139627,
+    "lon": 9.37006
+  },
+  "seregno, monza e della brianza": {
+    "lat": 45.649723,
+    "lon": 9.2053999
+  },
+  "carugate, milano": {
+    "lat": 45.549774,
+    "lon": 9.343749
+  },
+  "cavenago di brianza, monza e della brianza": {
+    "lat": 45.584917,
+    "lon": 9.4160593
+  },
+  "cesano maderno, monza e della brianza": {
+    "lat": 45.6283938,
+    "lon": 9.1467512
+  },
+  "faloppio, como": {
+    "lat": 45.808881,
+    "lon": 8.9711727
+  },
+  "san colombano al lambro": {
+    "lat": 45.1817028,
+    "lon": 9.4889416
+  },
+  "ponte lambro, como": {
+    "lat": 45.82658,
+    "lon": 9.225441
+  },
+  "cantello, varese": {
+    "lat": 45.8271272,
+    "lon": 8.8876818
+  },
+  "locate varesino, como": {
+    "lat": 45.6888509,
+    "lon": 8.9306787
+  },
+  "marcallo con casone": {
+    "lat": 45.4872199,
+    "lon": 8.8732761
+  },
+  "saltrio, varese": {
+    "lat": 45.8739084,
+    "lon": 8.921668
+  },
+  "busto arsizio, varese": {
+    "lat": 45.611932,
+    "lon": 8.8518269
+  },
+  "abbiategrasso, milano": {
+    "lat": 45.398733,
+    "lon": 8.9162299
+  },
+  "brugherio, monza e della brianza": {
+    "lat": 45.5507486,
+    "lon": 9.3012222
+  },
+  "besozzo, varese": {
+    "lat": 45.8457972,
+    "lon": 8.6664953
+  },
+  "agrate brianza, monza e della brianza": {
+    "lat": 45.5761735,
+    "lon": 9.3509475
+  },
+  "albiate, monza e della brianza": {
+    "lat": 45.6589901,
+    "lon": 9.2557963
+  },
+  "montu' beccaria, pavia": {
+    "lat": 45.0314395,
+    "lon": 9.3189817
+  },
+  "azzio, varese": {
+    "lat": 45.8856532,
+    "lon": 8.7109064
   }
 }
