@@ -27,13 +27,12 @@ processati dall'agente:
         campo sedi non parsabile, chiamata di ricerca fallita) -> NON
         scrivere nel tracking, vanno rianalizzati al prossimo giro
 
-IMPORTANTE - avvertenza sul parsing di `sedi`: la struttura esatta del campo
-`sedi` restituito dall'API non e' stata verificata contro l'endpoint reale
-(il dominio era bloccato dalla policy di rete nell'ambiente in cui questo
-script e' stato scritto). Il parsing sotto assume che ogni elemento di `sedi`
-sia una stringa tipo "Comune (PR)" o semplicemente "Comune"/"Nazionale". Al
-primo run reale, se il conteggio di `errori` e' anomalo, ispeziona
-bandi_report.json -> errori[].raw_sedi e aggiusta la funzione parse_sede().
+NOTA sul campo `sedi`: contiene solo [Regione, Provincia] (es. ["Lombardia",
+"Monza e della Brianza"]), MAI il comune. Il comune del posto di lavoro va
+estratto dal nome dell'ente ("Comune di X") con extract_comune_da_ente(); se
+l'ente non e' un comune (Provincia/ASST/Universita'/Parco/...) il bando finisce
+in da_verificare_pdf perche' non c'e' un modo affidabile di geocodificarlo
+in automatico.
 """
 import argparse
 import json
@@ -60,11 +59,32 @@ SEARCH_TERMS = [
     "gestionale", "demografici", "anagrafe", "URP", "culturali", "giudiziario",
 ]
 
-# Province il cui comune di confine piu' vicino a Paderno Dugnano e' comunque
-# oltre i 20km (verificato empiricamente nelle esecuzioni precedenti della
-# routine). Per queste si salta la geocodifica individuale.
-SKIP_GEOCODE_PROVINCES = {"BG", "BS", "CR", "LO", "MN", "SO"}
-# MI, MB, VA, CO, LC, PV vanno SEMPRE geocodificate individualmente.
+# Province (nome per esteso, come restituito in sedi[1] dall'API — es.
+# "Brescia", "Monza e della Brianza") il cui comune di confine piu' vicino a
+# Paderno Dugnano e' comunque oltre i 20km (verificato empiricamente nelle
+# esecuzioni precedenti della routine). Per queste si salta la geocodifica
+# individuale.
+SKIP_GEOCODE_PROVINCES = {"bergamo", "brescia", "cremona", "lodi", "mantova", "sondrio"}
+# Milano, Monza e della Brianza, Varese, Como, Lecco, Pavia vanno SEMPRE
+# geocodificate individualmente.
+
+# NOTA BUG STORICO (trovato 2026-08-05): il campo `sedi` restituito dall'API
+# contiene SOLO [Regione, Provincia] (es. ["Lombardia", "Monza e della
+# Brianza"]) e MAI il comune. La versione precedente di questo script usava
+# sedi[0] (la REGIONE) come se fosse il comune da geocodificare, ottenendo
+# sempre lo stesso punto ("Lombardia") e quindi la stessa distanza fasulla
+# per ogni bando — con esclusioni "fuori raggio" errate per bandi in realta'
+# vicinissimi (es. Cesano Maderno, 6.5km reali). Il comune va invece estratto
+# dal nome dell'ente ("Comune di X").
+ENTE_COMUNE_RE = re.compile(r"comune di ([^,\-\(]+)", re.IGNORECASE)
+
+
+def extract_comune_da_ente(enti_riferimento):
+    for nome in enti_riferimento or []:
+        m = ENTE_COMUNE_RE.match(nome.strip())
+        if m:
+            return m.group(1).strip()
+    return None
 
 EXCLUDE_TITLE_PATTERNS = [
     r"\binterpell\w*",
@@ -172,10 +192,15 @@ def geocode(place, cache, cache_path, state):
 
 
 def detect_ti_td(text):
+    # NON cercare la frase esatta "tempo indeterminato": molti bandi scrivono
+    # "a tempo pieno ed indeterminato" / "a tempo pieno e determinato", quindi
+    # la parola "indeterminato"/"determinato" non è mai adiacente a "tempo".
+    # "\bdeterminato\b" non matcha dentro "indeterminato" perché non c'e' un
+    # confine di parola prima della "d" (nessuno spazio tra "in" e "determinato").
     t = text.lower()
-    if "tempo indeterminato" in t:
+    if re.search(r"\bindeterminato\b", t):
         return "TI"
-    if "tempo determinato" in t:
+    if re.search(r"\bdeterminato\b", t):
         return "TD"
     return None
 
@@ -183,19 +208,6 @@ def detect_ti_td(text):
 def matches_any(patterns, text):
     t = text.lower()
     return any(re.search(p, t) for p in patterns)
-
-
-def parse_sede(raw):
-    """Ritorna (comune_o_none, provincia_sigla_o_none, is_nazionale)."""
-    s = str(raw).strip()
-    if not s:
-        return None, None, False
-    if "nazional" in s.lower():
-        return None, None, True
-    m = re.search(r"\(([A-Za-z]{2})\)\s*$", s)
-    provincia = m.group(1).upper() if m else None
-    comune = re.sub(r"\([A-Za-z]{2}\)\s*$", "", s).strip()
-    return comune or s, provincia, False
 
 
 def main():
@@ -293,27 +305,33 @@ def main():
             report["errori"].append(base)
             continue
 
-        parsed = [parse_sede(s) for s in sedi_raw]
-        if any(nazionale for _, _, nazionale in parsed):
+        if any("nazional" in str(s).lower() for s in sedi_raw):
             report["da_verificare_nazionale"].append(base)
             continue
 
-        comune, provincia, _ = parsed[0]
-        if provincia in SKIP_GEOCODE_PROVINCES:
-            base["comune"] = comune
+        provincia = sedi_raw[1] if len(sedi_raw) > 1 else None
+        provincia_key = provincia.strip().lower() if provincia else None
+
+        if provincia_key in SKIP_GEOCODE_PROVINCES:
+            base["comune"] = extract_comune_da_ente(item.get("entiRiferimento"))
             base["km"] = None
             base["stato_valutazione"] = "escluso_fuori_raggio"
             report["esclusi"].append(base)
             continue
 
+        comune = extract_comune_da_ente(item.get("entiRiferimento"))
         if not comune:
-            base["errore"] = f"comune non estraibile da sedi: {sedi_raw!r}"
-            report["errori"].append(base)
+            # L'ente non e' un "Comune di X" (Provincia/ASST/Universita'/
+            # Parco/...): non c'e' un modo affidabile per geocodificare in
+            # automatico una sede puntuale. Va verificato a mano nel PDF
+            # invece di rischiare un'esclusione (o approvazione) errata.
+            report["da_verificare_pdf"].append(base)
             continue
 
-        coord = geocode(comune, cache, args.geocode_cache, geostate)
+        geo_query = f"{comune}, {provincia}" if provincia else comune
+        coord = geocode(geo_query, cache, args.geocode_cache, geostate)
         if not coord:
-            base["errore"] = f"geocoding fallito per comune '{comune}'"
+            base["errore"] = f"geocoding fallito per comune '{geo_query}'"
             report["errori"].append(base)
             continue
 
