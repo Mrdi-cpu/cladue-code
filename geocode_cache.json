@@ -107,5 +107,105 @@
   "saltrio, varese": {
     "lat": 45.8739084,
     "lon": 8.921668
+  },
+  "cassano d'adda": {
+    "lat": 45.5263333,
+    "lon": 9.5214907
+  },
+  "busnago, monza e della brianza": {
+    "lat": 45.6161843,
+    "lon": 9.4656704
+  },
+  "trezzano sul naviglio, milano": {
+    "lat": 45.4182125,
+    "lon": 9.0710538
+  },
+  "rozzano, milano": {
+    "lat": 45.3829973,
+    "lon": 9.1545305
+  },
+  "busto arsizio, varese": {
+    "lat": 45.611932,
+    "lon": 8.8518269
+  },
+  "abbiategrasso, milano": {
+    "lat": 45.398733,
+    "lon": 8.9162299
+  },
+  "saronno, varese": {
+    "lat": 45.6272691,
+    "lon": 9.0345548
+  },
+  "quintano": {
+    "lat": 45.4215151,
+    "lon": 9.6247122
+  },
+  "bresso, milano": {
+    "lat": 45.5372394,
+    "lon": 9.1889678
+  },
+  "veduggio con colzano, monza e della brianza": {
+    "lat": 45.7336298,
+    "lon": 9.2625127
+  },
+  "pero, milano": {
+    "lat": 45.5101617,
+    "lon": 9.0894415
+  },
+  "brinzio, varese": {
+    "lat": 45.8891102,
+    "lon": 8.7904134
+  },
+  "lurago d'erba, como": {
+    "lat": 45.747523,
+    "lon": 9.2122878
+  },
+  "vimodrone, milano": {
+    "lat": 45.5128319,
+    "lon": 9.2846717
+  },
+  "pozzolengo": {
+    "lat": 45.4059696,
+    "lon": 10.6313729
+  },
+  "meda": {
+    "lat": 45.6625046,
+    "lon": 9.1567532
+  },
+  "brusimpiano, varese": {
+    "lat": 45.9477557,
+    "lon": 8.8892162
+  },
+  "san donato milanese, milano": {
+    "lat": 45.41807,
+    "lon": 9.27165
+  },
+  "brugherio, monza e della brianza": {
+    "lat": 45.5507486,
+    "lon": 9.3012222
+  },
+  "besozzo, varese": {
+    "lat": 45.8457972,
+    "lon": 8.6664953
+  },
+  "agrate brianza, monza e della brianza": {
+    "lat": 45.5761735,
+    "lon": 9.3509475
+  },
+  "montu' beccaria, pavia": {
+    "lat": 45.0314395,
+    "lon": 9.3189817
+  },
+  "azzio, varese": {
+    "lat": 45.8856532,
+    "lon": 8.7109064
+  },
+  "bardello con malgesso e bregano, varese": {
+    "lat": 45.8241002,
+    "lon": 8.6822323
+  },
+  "senago, milano": {
+    "lat": 45.5778918,
+    "lon": 9.1220007
   }
 }
