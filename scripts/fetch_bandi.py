@@ -150,24 +150,40 @@ def geocode(place, cache, cache_path, state):
     key = place.strip().lower()
     if key in cache:
         return cache[key]
-    if state["last_call"] is not None:
-        elapsed = time.monotonic() - state["last_call"]
-        if elapsed < NOMINATIM_MIN_INTERVAL_S:
-            time.sleep(NOMINATIM_MIN_INTERVAL_S - elapsed)
     coord = None
-    try:
-        q = urllib.parse.quote(place)
-        results = http_get_json(
-            f"{NOMINATIM_URL}?q={q},Italy&format=json&limit=1&countrycodes=it",
-            headers={"User-Agent": USER_AGENT},
-        )
-        state["last_call"] = time.monotonic()
-        if results:
-            coord = {"lat": float(results[0]["lat"]), "lon": float(results[0]["lon"])}
-    except Exception as e:
-        print(f"WARN geocoding fallito per '{place}': {e}", file=sys.stderr)
-    cache[key] = coord
-    Path(cache_path).write_text(json.dumps(cache, ensure_ascii=False, indent=2))
+    last_err = None
+    for attempt in range(4):
+        if state["last_call"] is not None:
+            elapsed = time.monotonic() - state["last_call"]
+            if elapsed < NOMINATIM_MIN_INTERVAL_S:
+                time.sleep(NOMINATIM_MIN_INTERVAL_S - elapsed)
+        try:
+            q = urllib.parse.quote(place)
+            results = http_get_json(
+                f"{NOMINATIM_URL}?q={q},Italy&format=json&limit=1&countrycodes=it",
+                headers={"User-Agent": USER_AGENT},
+            )
+            state["last_call"] = time.monotonic()
+            if results:
+                coord = {"lat": float(results[0]["lat"]), "lon": float(results[0]["lon"])}
+            break
+        except urllib.error.HTTPError as e:
+            state["last_call"] = time.monotonic()
+            last_err = e
+            if e.code == 429 and attempt < 3:
+                time.sleep(2.0 * (attempt + 1))
+                continue
+            print(f"WARN geocoding fallito per '{place}': {e}", file=sys.stderr)
+            break
+        except Exception as e:
+            last_err = e
+            print(f"WARN geocoding fallito per '{place}': {e}", file=sys.stderr)
+            break
+    if coord is not None:
+        # Non mettiamo in cache i fallimenti: potrebbero essere transitori
+        # (es. rate limit Nominatim) e vogliamo ritentare al prossimo giro.
+        cache[key] = coord
+        Path(cache_path).write_text(json.dumps(cache, ensure_ascii=False, indent=2))
     return coord
 
 
@@ -298,7 +314,18 @@ def main():
             report["da_verificare_nazionale"].append(base)
             continue
 
-        comune, provincia, _ = parsed[0]
+        # Il campo 'sedi' reale include spesso il nome della regione
+        # ("Lombardia") come uno degli elementi (non sempre in prima
+        # posizione). Va scartato: non e' un comune/provincia utile alla
+        # geocodifica, e prenderlo per buono produce sempre la stessa
+        # distanza fittizia (~47km) causando falsi "fuori raggio".
+        specifiche = [(c, p) for c, p, _ in parsed if c and c.strip().lower() != "lombardia"]
+        if not specifiche:
+            base["errore"] = f"nessuna sede specifica (solo regione) in sedi: {sedi_raw!r}"
+            report["errori"].append(base)
+            continue
+
+        comune, provincia = specifiche[0]
         if provincia in SKIP_GEOCODE_PROVINCES:
             base["comune"] = comune
             base["km"] = None

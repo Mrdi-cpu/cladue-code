@@ -1,5 +1,4 @@
 {
-  "paderno dugnano, italy": null,
   "paderno dugnano": {
     "lat": 45.5719082,
     "lon": 9.1682143
@@ -7,5 +6,33 @@
   "lombardia": {
     "lat": 45.5703694,
     "lon": 9.7732524
+  },
+  "milano": {
+    "lat": 45.4641943,
+    "lon": 9.1896346
+  },
+  "monza e della brianza": {
+    "lat": 45.6395418,
+    "lon": 9.2788304
+  },
+  "brescia": {
+    "lat": 45.7795805,
+    "lon": 10.425873
+  },
+  "sondrio": {
+    "lat": 46.3233662,
+    "lon": 10.2583951
+  },
+  "varese": {
+    "lat": 45.8399103,
+    "lon": 8.754179
+  },
+  "cremona": {
+    "lat": 45.2208641,
+    "lon": 10.037038
+  },
+  "bergamo": {
+    "lat": 45.7566557,
+    "lon": 9.7542192
   }
 }
