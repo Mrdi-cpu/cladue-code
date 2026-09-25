@@ -7,5 +7,53 @@
   "lombardia": {
     "lat": 45.5703694,
     "lon": 9.7732524
+  },
+  "castano primo, milano": {
+    "lat": 45.5516086,
+    "lon": 8.7776288
+  },
+  "sesto san giovanni, milano": {
+    "lat": 45.5347926,
+    "lon": 9.2371764
+  },
+  "grezzago": {
+    "lat": 45.5918653,
+    "lon": 9.4952028
+  },
+  "colturano, milano": {
+    "lat": 45.3777089,
+    "lon": 9.3377732
+  },
+  "biassono, monza e della brianza": {
+    "lat": 45.6309866,
+    "lon": 9.2751203
+  },
+  "cambiago, milano": {
+    "lat": 45.5725439,
+    "lon": 9.4268416
+  },
+  "quintano": {
+    "lat": 45.4215151,
+    "lon": 9.6247122
+  },
+  "bresso, milano": {
+    "lat": 45.5372394,
+    "lon": 9.1889678
+  },
+  "vimodrone, milano": {
+    "lat": 45.5128319,
+    "lon": 9.2846717
+  },
+  "brusimpiano, varese": {
+    "lat": 45.9477557,
+    "lon": 8.8892162
+  },
+  "alzate brianza, como": {
+    "lat": 45.760955,
+    "lon": 9.1846258
+  },
+  "castelveccana, varese": {
+    "lat": 45.9508626,
+    "lon": 8.6692725
   }
 }
