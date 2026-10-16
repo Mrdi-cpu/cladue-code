@@ -1,0 +1,13 @@
+{
+    "mcpServers": {
+        "apify": {
+            "command": "npx",
+            "args": [
+                "mcp-remote",
+                "https://mcp.apify.com/?tools=xmiso_scrapers/millions-us-businesses-leads-with-emails-from-google-maps",
+                "--header",
+                "Authorization: Bearer ${APIFY_API_TOKEN}"
+            ]
+        }
+    }
+}
